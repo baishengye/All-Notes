@@ -1,0 +1,11 @@
+<resources>
+<!--    定义了一个应用程序名的字符串-->
+<!--    xml:@string.app_name-->
+<!--    代码中:R.string.app_name-->
+<!--    可以在xml和代码中引用,应用实例详见AndroidManifest.xml中-->
+<!--    还可以应用图片\布局\图标-->
+<!--    <drawable name="app_name">1_HelloWorld</drawable>-->
+<!--    <layout name="app_name">1_HelloWorld</layout>-->
+<!--    <mipmap name="app_name">1_HelloWorld</mipmap>-->
+    <string name="app_name">1_HelloWorld</string>
+</resources>

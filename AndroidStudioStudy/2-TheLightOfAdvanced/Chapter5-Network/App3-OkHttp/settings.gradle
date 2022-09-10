@@ -1,0 +1,2 @@
+rootProject.name = "App3-OkHttp"
+include ':app'

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/drawLayout">
+
+    <!--主屏幕中显示的内容-->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:id="@+id/toolbar"
+                android:background="@color/purple_200"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_scrollFlags="scroll|enterAlways|snap"/>
+            <!--app:layout_scrollFlags当有滚动事件的时候toolbar会发生什么?
+            scroll:RecyclerView向上滚动的时候Toolbar会跟着向上滚动并且隐藏
+            enterAlways:RecyclerView向下滚动的时候，Toolbar会跟着向下滚动，并显示
+            snap:Toolbar还没有完全隐藏或显示的时候，就会根据当前滚动的距离，自动选择隐藏还是显示-->
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/recyclerView"/>
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            是个布局指定行为，当RecyclerView有滚动行为的时候会把更懂时间传给AppBarLayout进行一个处理-->
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_done"
+            app:elevation="8dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <!--android:layout_gravity="bottom|end"表明这个按钮在下边，并且end指定如果系统语言从左到右就按钮在右边，反之在左边
+        app:elevation="8dp指定悬浮高度，高度值越大，投影范围越大(悬浮按钮有影子),影子越淡-->
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <!--滑动菜单中的内容-->
+    <!--android:layout_gravity="start"指定了滑动菜单在屏幕的哪边
+    start是指系统语言是从左到右读就在右边，反之就在左边-->
+    <!--android:layout_gravity="start"必须要指定，指定了的就是滑动菜单-->
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:layout_gravity="left"
+        android:text="菜单"
+        android:textSize="30sp"/>-->
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navView"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"
+        />
+    <!--app:headerLayout接收一个头部布局
+    app:menu接收一个菜单布局
+    app:headerLayout一定会在app:menu上面-->
+
+</androidx.drawerlayout.widget.DrawerLayout>
+<!--
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    &lt;!&ndash;xmlns:android="http://schemas.android.com/apk/res/android"指定了一个android的命名空间
+    指定了新的命名空间之后，我们才可以用android:id,android:layout_height这种用法
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"指定了一个app的命名空间
+    我们就可以用app:popupTheme这样的用法了
+
+    由于有很多新的Materials属性在新系统中新增的,所以就需要兼容老系统,所以我们就不能用android:attribute，而要用app:attribute
+    比如app:id或者app:layout_height等&ndash;&gt;
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@color/purple_500"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    &lt;!&ndash;androidx.appcompat.widget.Toolbar定义了一个Toolbar控件，这个控件widget.Toolbar是在appcompat库里面的
+    ?attr/actionBarSize是指ActionBar的高度
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"指定Toolbar的颜色是深色的
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"指定弹出菜单是浅色的&ndash;&gt;
+
+
+</FrameLayout>-->

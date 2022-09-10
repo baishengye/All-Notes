@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--
+    layout_width="match_parent":TextView的宽度和父亲一样宽
+    layout_height="wrap_content":和文本一样高
+    固定值: 固定值表示给控件指定一个固定的尺寸，单位一般使用dp
+    dp:是一种与屏幕密度无关的尺寸单位，可以保证在不同的手机上显示的效果尽可能的一致
+    -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#4f0011"
+        android:textSize="24dp"
+        android:text="This is a TextView"/>
+    <!--  android:gravity="center"   这个是指定文字居中对齐 -->
+    <!--android:textColor="#4f0011" 指定文字的颜色
+    android:textSize="24dp"   指定文字的大小
+    但是值得注意的是文字大小要用sp作为单位，这样用户在系统中修改文字显示尺寸的时候，程序中的文字才会变化-->
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Button"/>
+    <!--由于Android系统会觉得Button比较重要，所以它会把Button中的显示文本自动转化成大写
+    不想要大写的话需要加上一句
+    android:textAllCaps="false"      false是不转化,true是转化-->
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type something here"
+        android:maxLines="2"/>
+    <!--
+    我们可以在EditText中输入文本
+    我们平时可以看到文本框里应该会有提示信息，输入的时候就消失了，其实这种功能android已经为我们集成了
+    android:hint="Type something here"  加入这行就可以有完成上述功能,""里面的就是提示信息
+
+    由于我们高度选的是和文本一样高,那么当输入内容过多的时候，界面就会很难看,android也为我们提供了解决方式
+    android:maxLines="2"  指定了editView中最大只能为2行，超过两行就会变成文本可以向上滚动,文本框不会变化了
+    -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_1"/>
+    <!--android:src="@drawable/img_1"导入资源-->
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"/>
+    <!--会看到一个圆圈在加载-->
+    <!--但是我们会看到他一直在上面，怎么让他消失?
+    android:visibility可以指定他的状态:一共有三种
+        visible:可见
+        invisible:不可见，但会占用屏幕空间，相当于透明了
+        gone:不可见，也不会占用屏幕空间，相当于隐藏到别处了-->
+
+    <!--如果我们不想要是圆圈样式的进度条，而是水平的进度条，就可以加上这两行
+    style="?android:attr/progressBarStyleHorizontal"   :  z指定进度条的风格是水平的
+    android:max="100"   :     给水平进度条设置一个最大值
+    我们可以在代码里动态的修改进度-->
+
+
+
+</LinearLayout>

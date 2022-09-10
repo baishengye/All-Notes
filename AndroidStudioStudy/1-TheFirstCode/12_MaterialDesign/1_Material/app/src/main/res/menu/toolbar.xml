@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/ic_backup"
+        android:title="Backup"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings"
+        android:title="Setting"
+        app:showAsAction="never"/>
+
+    <!--item指定一个action按钮
+    id指定一个唯一id
+    icon指定一个图标
+    title指定一个标题
+    showAsAction指定按钮显示的位置
+        never- 永远显示在菜单里
+        ifRoom- 如果屏幕空间足够就显示在toolbar中,不够就在菜单中
+        always- 永远显示在toolbar中
+    但是Toolbar中的Action按钮只会显示图标，菜单中的Action按钮只会显示文字-->
+
+</menu>

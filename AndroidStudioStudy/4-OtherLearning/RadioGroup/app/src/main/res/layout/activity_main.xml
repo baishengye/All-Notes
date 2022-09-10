@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="这是横着放的RadioGroup"/>
+
+    <RadioGroup
+        android:id="@+id/rg_horizontal_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="好"
+            android:textSize="18sp"
+            android:id="@+id/rb_horizontal_good"
+            android:textColor="#000000"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="很好"
+            android:textSize="18sp"
+            android:id="@+id/rb_horizontal_very_good"
+            android:textColor="#000000"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="这是竖着放的RadioGroup"/>
+
+    <RadioGroup
+        android:id="@+id/rg_vertical_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="-1"
+            android:textSize="18sp"
+            android:id="@+id/rb_vertical_good"
+            android:textColor="#000000"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="0"
+            android:textSize="18sp"
+            android:id="@+id/rb_vertical_very_good"
+            android:textColor="#000000"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="1"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="2"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="3"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="4"
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="这是改了图标竖着放的RadioGroup"/>
+</LinearLayout>

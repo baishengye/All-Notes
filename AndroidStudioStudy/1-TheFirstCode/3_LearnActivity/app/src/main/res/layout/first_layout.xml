@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    给页面中添加一个按钮-->
+    <!-- 在first_layout.xml中添加代码 -->
+    <!--    从上到下的含义依次是:-->
+    <!--    id:这个按钮的唯一标识符,我们在代码里就是用这个找到按钮-->
+    <!--    layout_width:指定按钮的宽度,match_parent(和父亲一样宽)-->
+    <!--    layout_height:指定按钮的高度,wrap_content(刚好能包含按钮中的内容)-->
+    <!--    text:按钮中的文本-->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"/>
+</LinearLayout>

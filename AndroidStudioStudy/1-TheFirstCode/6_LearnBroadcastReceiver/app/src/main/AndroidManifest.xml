@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bo.a6_learnbroadcastreceiver">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.6_LearnBroadcastReceiver">
+        <receiver
+            android:name=".AnotherBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="com.bo.a6_learnbroadcastreceiver.MY_BROADCAST"/>
+            </intent-filter>
+        </receiver>
+
+
+        <!--
+        android:name指定具体注册哪一个BroadcastReceiver
+        android:enabled:是否启用这个广播接收器
+        android:exported:是否允许接收本程序以外的广播
+        -->
+        <receiver
+            android:name=".BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <!--监听启动的时候-->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!-- 只有行为是android.intent.action.BOOT_COMPLETED的意图才会被这个广播接收器接收 -->
+            </intent-filter>
+            <!--但是Android API Level8 以上的时候，程序可以安装在SD卡上。如果程序安装在SD卡上，
+            那么在BOOT_COMPLETED广播发送之后，SD卡才会挂载，因此程序无法监听到该广播
+            所以我么需要同时监听开机和sd卡挂载。（也不能只监听挂载就认为开机了，因为有的手机没有sd卡）-->
+            <intent-filter >
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <data android:scheme="file">
+                </data>
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".MyBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="100">
+                <action android:name="com.bo.a6_learnbroadcastreceiver.MY_BROADCAST" />
+                <!-- 告诉接收器我们待会接收到"com.bo.a6_learnbroadcastreceiver.MY_BROADCAST"这样一条广播 -->
+            </intent-filter>
+        </receiver>
+        <!--<intent-filter android:priority="100"是设置这个接收器的优先级，优先级高的先收到 -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

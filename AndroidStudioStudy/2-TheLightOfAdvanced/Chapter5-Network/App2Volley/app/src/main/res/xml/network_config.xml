@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>
+    <!--在android9.0时代开始，应用程序默认只允许https类型的网络请求
+    http有安全隐患不能用，但是但我们现在用的apache服务器就是http
+    下面就是配置为了能使用http
+    这段配置的意思就是允许我们以明文的方式在网络上传输数据,而http就是用明文传输数据-->

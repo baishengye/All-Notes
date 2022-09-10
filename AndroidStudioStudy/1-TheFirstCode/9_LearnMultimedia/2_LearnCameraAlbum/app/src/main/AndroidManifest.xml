@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bo.a2_learncameraalbum">
+    <!--权限不能忘-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.2_LearnCameraAlbum">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!--在代码里面用到了FileProvider所以需要注册
+        android:name的值是固定的
+        android:authorities的值必须要跟代码中的FileProvider.getUriForFile()方法的第二个参数一样
+        android:exported是否支持其它应用调用当前组件
+        android:grantUriPermissions是否授予访问Uri的权限-->
+        <provider
+            android:authorities="com.bo.a2_learncameraalbum.fileprovider"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+            <!--meta-data指定共享路径-->
+        </provider>
+    </application>
+
+</manifest>
