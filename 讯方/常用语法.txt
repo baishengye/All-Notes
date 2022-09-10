@@ -1,0 +1,74 @@
+1.数据库定义语言(DDL)
+简称：DDL，Data Denifition Language
+代表关键字：create、drop、alter
+创建、删除、修改表的结构
+
+例如:
+1） 创建数据库：create database db;
+2） 选择数据库：use db;
+3） 导入数据库：source D:\db.sql;
+4） 删除数据库：drop database db;
+5）查看数据库:   show databases;
+6)  切换数据库:   use db;
+7)   查看当前数据库: select database();
+7)  查看表描述    desc table;
+8)   查看所有表:  show tables;
+9)    删除表:        drop table xx;   或 drop table if exists xx
+10）查看建表语句: show create table xx;
+11) 修改表结构：
+ 	新增：ALTER TABLE 表名 ADD 字段名 字段类型（长度）；
+ 	修改：ALTER TABLE 表名 MODIFY 字段名 字段类型（长度）；
+ 	删除：ALTER TABLE 表名 DROP 字段名; 
+
+
+2.数据库操作语言(DML)
+简称：DML，Data Manipulation Language
+代表兲键字：insert、delete 、update
+增、删、改表中的数据
+
+例如:
+1）增：insert into table(username,password) values("张三","123456"),("王五","654321");
+2)  删: delete from table where id = ?;
+3)  改：update table set username = ?,password = ? where id = ?;
+
+
+3.数据库查询语言(DQL)
+简称：DQL，Data Query Language
+代表兲键字：select
+
+例如：
+简单查询: select * from table;
+	select empno,ename,sal * 12 as ‘年薪’from emp;
+
+单行处理函数：
+Lower 转换小写
+upper 转换大写
+substr 取子串（substr(被截取的字符串,起始下标,截取的长度)）
+length 取长度
+trim 去空格
+str_to_date 将字符串转换成日期
+date_format 格式化日期
+format 设置千分位
+round 四舍五入
+rand() 生成随机数
+Ifnull 可以将null转换成一个具体值
+
+多行处理函数:
+sum 求和
+avg 取平均
+max 取最大值
+min 取最小值
+count 取得记录数
+
+select的顺序:
+select xxxx from xxxx where xxxx group by xxxx having xxxx order by xxxx;
+
+
+4.事务控制语言(TCL)
+简称：TCL，Trasactional Control Language
+代表兲键字：commit、rollback
+
+
+5.数据控制语言(DCL)
+简称：DCL，Data Control Language
+代表兲键字：grant、revoke

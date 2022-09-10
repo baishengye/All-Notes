@@ -1,0 +1,28 @@
+一、response乱码
+    服务器发给浏览器的数据默认是按照ISO-8859-1编码，浏览器接收到数据后按照默认的字符集进行解码后显示，如果浏览器的默认解码字符集不是ISO-8859-1，就出现乱码。
+    对于response乱码，只需要在服务器端指定一个编码字符集，然后通知浏览器按照这个字符集进行解码就可以了。有三种方式：
+ 
+    方式1：response.setCharacterEncoding("utf-8”);//设置服务器端的编码，默认是ISO-8859-1；该方法必须在response.getWriter()之前进行设置
+                 response.setHeader("contentType", "text/html; charset=utf-8”);//通知浏览器服务器发送的数据格式是text/html，并要求浏览器使用utf-8进行解码。
+ 
+    方式2：response.setContentType("text/html;charset=utf-8”);//等同于response.setHeader("contentType", "text/html; charset=utf-8”);它其实会覆盖
+　　　　  response.setCharacterEncoding("utf-8”) ，在开发中只需要设置response.setContentType("text/html;charset=utf-8”)就可以了。意思是通知浏览器服务器发送的数据                  格式是text/html，服务器采用utf-8编码，并要求浏览器使用utf-8进行解码。
+ 
+    方式3：response.setCharacterEncoding("utf-8”);//设置服务器端的编码为utf-8
+                 response.getWriter().println("<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>”);//要求浏览器使用utf-8进行解码
+               
+ 可以看出，第二种方式是最简便的，这也是我们在开发中最常使用的方式。
+
+
+二、request乱码
+       从浏览器发起的访问方式有三种：在地址栏直接输入URL访问、点击页面中的超链接访问、提交表单访问。第一种访问方式浏览器默认将参数按照utf-8进行编码，后面两种访问方式浏览器将参数按照当前页面的显示编码进行编码。所以对于request乱码，只需要在服务器端设置相应的解码格式即可。由于访问方式不同，浏览器对参数的编码格式也不同，为了方便处理，通过超链接和表单的访问也规定必须是utf-8格式，即显示当前页面的编码也要使用utf-8，这样浏览器将统一使用utf-8对参数进行编码。
+       在服务器端，通过request.setCharacterEncoding("utf-8”)即可设置服务器的解码为utf-8（默认是ISO-8859-1），但是它只对请求体里面的参数有效；如果参数跟在请求行中的uri后边，它就无能为力了。因此请求方式不同，解决乱码的方案也不同。
+ 
+　1、post方式
+          post方式属于表单提交，参数存在于请求体中，通过request.setCharacterEncoding("utf-8”)即可解决乱码。
+   
+　2、get方式
+         get方式提交的参数会跟在请求行中的uri后边，服务器按照默认的iso-8859-1进行解码，这时候解决乱码有两种办法：
+         办法一：修改服务器端对uri参数的默认编码
+          在tomcat的server.xml中，设置<Connector ….>元素的属性URIEncoding="UTF-8”即可。（默认没有设置此属性）
+         例如：<Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" URIEncoding="UTF-8”/>
