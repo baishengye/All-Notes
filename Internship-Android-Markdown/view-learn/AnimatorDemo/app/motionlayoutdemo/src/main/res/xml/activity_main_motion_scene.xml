@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionSence xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetStart="@layout/activity_main_scene1"
+        app:constraintSetEnd="@layout/activity_main_scene2"
+        app:motionInterpolator="bounce"
+        app:duration="2000">
+
+        <OnSwipe
+            app:touchAnchorId="@id/bottomBar"
+            app:touchAnchorSide="top"
+            app:dragDirection="dragUp"/>
+
+    </Transition>
+
+    <Transition
+        app:constraintSetStart="@layout/activity_main_scene1"
+        app:constraintSetEnd="@layout/activity_main_scene3"
+        app:motionInterpolator="bounce"
+        app:duration="2000">
+
+        <OnSwipe
+            app:touchAnchorId="@id/image"
+            app:touchAnchorSide="right"
+            app:dragDirection="dragRight"/>
+
+    </Transition>
+
+</MotionSence>

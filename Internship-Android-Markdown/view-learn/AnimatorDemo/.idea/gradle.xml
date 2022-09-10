@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="Android Studio default JDK" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/motionlayoutdemo" />
+            <option value="$PROJECT_DIR$/app/motionlayoutdemo2" />
+            <option value="$PROJECT_DIR$/app/motionlayoutdemo3" />
+            <option value="$PROJECT_DIR$/app/motionlayoutdemo4" />
+            <option value="$PROJECT_DIR$/appearandhideanimator" />
+            <option value="$PROJECT_DIR$/drawableanimationdemo" />
+            <option value="$PROJECT_DIR$/flinganimationdemo" />
+            <option value="$PROJECT_DIR$/fragmenttransactionanimatordemo" />
+            <option value="$PROJECT_DIR$/layoutanimationsdemo" />
+            <option value="$PROJECT_DIR$/objectanimatordemo" />
+            <option value="$PROJECT_DIR$/pathinterpolatordemo" />
+            <option value="$PROJECT_DIR$/propertyvaluesholderdemo" />
+            <option value="$PROJECT_DIR$/senceaniamtiondemo" />
+            <option value="$PROJECT_DIR$/springforceanimationdemo" />
+            <option value="$PROJECT_DIR$/statelistanimatordemo" />
+            <option value="$PROJECT_DIR$/valueanimatordemo" />
+            <option value="$PROJECT_DIR$/viewanimationutilsdemo" />
+            <option value="$PROJECT_DIR$/viewpropertyanimatordemo" />
+            <option value="$PROJECT_DIR$/xmlanimationdemo" />
+            <option value="$PROJECT_DIR$/xmlanimatordemo" />
+            <option value="$PROJECT_DIR$/zoomanimationdemo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

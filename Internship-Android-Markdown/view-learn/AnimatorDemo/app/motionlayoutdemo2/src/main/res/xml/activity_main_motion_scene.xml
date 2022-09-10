@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 定义 Start 场景的属性约束集-->
+    <!--<ConstraintSet android:id="@+id/activity_main_start">
+
+        &lt;!&ndash; 定义布局中 id 为 image 的 View 的属性约束 &ndash;&gt;
+        <Constraint
+            android:id="@id/imageFilterView"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            &lt;!&ndash; 使用自定义属性 &ndash;&gt;
+            <CustomAttribute
+                app:attributeName="backgroundColor"
+                app:customColorValue="@android:color/holo_blue_light" />
+
+        </Constraint>
+    </ConstraintSet>
+
+
+    &lt;!&ndash; 定义 End 场景的属性约束集 &ndash;&gt;
+    <ConstraintSet android:id="@+id/activity_main_end">
+
+        &lt;!&ndash; 定义布局中 id 为 image 的 View 的属性约束 &ndash;&gt;
+        <Constraint
+            android:id="@+id/imageFilterView"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            &lt;!&ndash; 使用自定义属性 &ndash;&gt;
+            <CustomAttribute
+                app:attributeName="backgroundColor"
+                app:customColorValue="@android:color/holo_green_light" />
+
+        </Constraint>
+
+    </ConstraintSet>
+
+    &lt;!&ndash; Start 场景与 End 场景都是定义在 MotionScene 文件中的约束集 &ndash;&gt;
+    <Transition
+        app:constraintSetStart="@id/activity_main_start"
+        app:constraintSetEnd="@id/activity_main_end"
+        app:duration="1000">
+
+        <OnClick
+            app:clickAction="toggle"
+            app:targetId="@id/imageFilterView" />
+
+    </Transition>-->
+
+
+    <ConstraintSet android:id="@+id/floatingActionButton_open">
+        <Constraint
+            android:id="@+id/floatingActionButton_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_alarm_add_white_24dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintCircle="@id/floatingActionButton"
+            app:layout_constraintCircleAngle="270"
+            app:layout_constraintCircleRadius="90dp"
+            android:visibility="visible"/>
+
+        <Constraint
+            android:id="@+id/floatingActionButton_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_alarm_off_white_24dp"
+            app:backgroundTint="@android:color/holo_blue_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintCircle="@id/floatingActionButton"
+            app:layout_constraintCircleAngle="315"
+            app:layout_constraintCircleRadius="90dp"
+            android:visibility="visible"/>
+
+        <Constraint
+            android:id="@+id/floatingActionButton_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_alarm_on_white_24dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintCircle="@id/floatingActionButton"
+            app:layout_constraintCircleAngle="0"
+            app:layout_constraintCircleRadius="90dp"
+            android:visibility="visible"/>
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/floatingActionButton_close">
+        <Constraint
+            android:id="@+id/floatingActionButton_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_alarm_add_white_24dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintCircle="@id/floatingActionButton"
+            app:layout_constraintCircleAngle="270"
+            app:layout_constraintCircleRadius="0dp"
+            android:visibility="invisible" />
+
+        <Constraint
+            android:id="@+id/floatingActionButton_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_alarm_off_white_24dp"
+            app:backgroundTint="@android:color/holo_blue_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintCircle="@id/floatingActionButton"
+            app:layout_constraintCircleAngle="315"
+            app:layout_constraintCircleRadius="0dp"
+            android:visibility="invisible" />
+
+        <Constraint
+            android:id="@+id/floatingActionButton_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_alarm_on_white_24dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:layout_constraintCircle="@id/floatingActionButton"
+            app:layout_constraintCircleAngle="0"
+            app:layout_constraintCircleRadius="0dp"
+            android:visibility="invisible" />
+    </ConstraintSet>
+
+    <Transition
+        motion:constraintSetStart="@id/floatingActionButton_close"
+        motion:constraintSetEnd="@id/floatingActionButton_open"
+        motion:duration="400">
+
+        <OnClick
+            app:clickAction="toggle"
+            app:targetId="@id/floatingActionButton" />
+
+    </Transition>
+
+</MotionScene>

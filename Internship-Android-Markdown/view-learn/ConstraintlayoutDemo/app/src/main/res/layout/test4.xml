@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF3FE"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <androidx.constraintlayout.helper.widget.Layer
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/purple_200"
+        android:padding="10dp"
+        app:constraint_referenced_ids="AndroidImg,NameTv" />
+
+    <ImageView
+        android:id="@+id/AndroidImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/NameTv"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Android"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/AndroidImg"
+        app:layout_constraintStart_toStartOf="@id/AndroidImg"
+        app:layout_constraintTop_toBottomOf="@id/AndroidImg" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/Guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:layout_constraintBottom_toBottomOf="@id/view2"
+        app:layout_constraintEnd_toStartOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view2"
+        app:warmth="0" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:layout_constraintBottom_toTopOf="@+id/view5"
+        app:layout_constraintEnd_toStartOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/view1"
+        app:layout_constraintTop_toTopOf="@id/Guideline"
+        app:warmth="5" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:layout_constraintBottom_toBottomOf="@id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@id/view2"
+        app:warmth="9" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:brightness="0"
+        app:layout_constraintBottom_toBottomOf="@id/view5"
+        app:layout_constraintEnd_toStartOf="@+id/view5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view5"/>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:brightness="5"
+        app:layout_constraintBottom_toTopOf="@+id/view8"
+        app:layout_constraintEnd_toStartOf="@+id/view6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:brightness="9"
+        app:layout_constraintBottom_toBottomOf="@id/view5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@id/view5"/>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:layout_constraintBottom_toBottomOf="@id/view8"
+        app:layout_constraintEnd_toStartOf="@+id/view8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view8"
+        app:saturation="0"/>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:layout_constraintBottom_toTopOf="@+id/view11"
+        app:layout_constraintEnd_toStartOf="@+id/view9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/view7"
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        app:saturation="5" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:layout_constraintBottom_toBottomOf="@id/view8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/view8"
+        app:layout_constraintTop_toTopOf="@id/view8"
+        app:saturation="9" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:contrast="0"
+        app:layout_constraintBottom_toBottomOf="@id/view11"
+        app:layout_constraintEnd_toStartOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view11"/>
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:contrast="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/view10"
+        app:layout_constraintTop_toBottomOf="@+id/view8" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/view12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fate"
+        app:contrast="9"
+        app:layout_constraintBottom_toBottomOf="@id/view11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@id/view11"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

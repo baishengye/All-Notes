@@ -1,0 +1,37 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "AnimatorDemo"
+include ':app'
+include ':valueanimatordemo'
+include ':propertyvaluesholderdemo'
+include ':objectanimatordemo'
+include ':layoutanimationsdemo'
+include ':xmlanimationdemo'
+include ':statelistanimatordemo'
+include ':viewpropertyanimatordemo'
+include ':xmlanimatordemo'
+include ':drawableanimationdemo'
+include ':appearandhideanimator'
+include ':fragmenttransactionanimatordemo'
+include ':viewanimationutilsdemo'
+include ':pathinterpolatordemo'
+include ':flinganimationdemo'
+include ':zoomanimationdemo'
+include ':springforceanimationdemo'
+include ':senceaniamtiondemo'
+include ':app:motionlayoutdemo'
+include ':app:motionlayoutdemo2'
+include ':app:motionlayoutdemo3'
+include ':app:motionlayoutdemo4'

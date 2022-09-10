@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF3FE"
+    tools:ignore="HardcodedText">
+
+    <TextView
+        android:id="@+id/A"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/B"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="B"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/C"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/D"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="D"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/E"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="E"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/F"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="F"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/G"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="G"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/H"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="H"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/I"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="I"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/J"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@color/purple_200"
+        android:text="J"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/K"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="K"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/L"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="L"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/M"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="M"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/N"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="N"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flow_wrapMode="chain"
+        app:flow_verticalGap="20dp"
+        app:constraint_referenced_ids="A,B,C,D,E,F,G,H,I,J,K,L,M,N"
+        app:layout_constraintTop_toTopOf="parent"
+        app:flow_firstHorizontalStyle="packed"
+        app:flow_lastHorizontalStyle="packed"
+        app:flow_verticalAlign="baseline"
+        app:flow_maxElementsWrap="5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

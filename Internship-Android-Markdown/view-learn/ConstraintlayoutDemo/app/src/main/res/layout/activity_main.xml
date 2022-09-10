@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="30dp"
+        android:background="@color/purple_200"
+        android:src="@drawable/fate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        app:layout_goneMarginStart="50dp"
+        android:text="20"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/iv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¥"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv1"
+        app:layout_constraintStart_toEndOf="@id/tv1" />
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/fate"
+        app:layout_constraintCircle="@id/iv"
+        app:layout_constraintCircleAngle="110"
+        app:layout_constraintCircleRadius="100dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/fate1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="90dp"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:minWidth="20dp"
+        android:minHeight="20dp"
+        android:src="@drawable/fate"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+    <!--android:maxWidth="50dp"
+    android:maxHeight="50dp"
+    android:minWidth="20dp"
+    android:minHeight="20dp"
+    没生效-->
+
+    <TextView
+        android:id="@+id/A"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="spread"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="spread" />
+
+    <TextView
+        android:id="@+id/B"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="190dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="percent"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <TextView
+        android:id="@+id/C"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="188dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="wrap"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="wrap" />
+    <!--app:layout_constraintWidth_default="spread|percent|wrap"
+    spread（默认）：占用所有的符合约束的空间
+    percent：按照父布局的百分比设置
+    wrap：匹配内容大小但不超过约束限制-->
+
+    <TextView
+        android:id="@+id/D"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="D"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintDimensionRatio="1:0.7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

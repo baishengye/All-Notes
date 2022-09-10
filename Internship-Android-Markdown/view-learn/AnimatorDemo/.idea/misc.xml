@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Work/View/AnimatorDemo/layoutanimationsdemo/src/main/res/drawable/baseline_accessibility_red_300_24dp.xml" value="0.1" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/layoutanimationsdemo/src/main/res/drawable/baseline_accessible_forward_red_300_24dp.xml" value="0.1" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/layoutanimationsdemo/src/main/res/drawable/baseline_accessible_red_300_24dp.xml" value="0.1" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/layoutanimationsdemo/src/main/res/drawable/shape_ll.xml" value="0.1" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/layoutanimationsdemo/src/main/res/layout/activity_main.xml" value="0.17798913043478262" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/layoutanimationsdemo/src/main/res/layout/activity_second.xml" value="0.17395833333333333" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/objectanimatordemo/src/main/res/layout/activity_main.xml" value="0.16168478260869565" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/propertyvaluesholderdemo/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/statelistanimatordemo/src/main/res/layout-v21/activity_main.xml" value="0.15833333333333333" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/statelistanimatordemo/src/main/res/layout/activity_main.xml" value="0.15833333333333333" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/statelistanimatordemo/src/main/res/xml/animate_scale.xml" value="0.15833333333333333" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/valueanimatordemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/viewpropertyanimatordemo/src/main/res/layout/activity_main.xml" value="0.1453804347826087" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/xmlanimationdemo/src/main/res/layout/ac_second.xml" value="0.17916666666666667" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/xmlanimationdemo/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Code/Work/View/AnimatorDemo/xmlanimatordemo/src/main/res/layout/activity_main.xml" value="0.16197916666666667" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo/src/main/res/layout/activity_main_scene1.xml" value="0.1" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo/src/main/res/layout/activity_main_scene2.xml" value="0.178125" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo/src/main/res/layout/activity_main_scene3.xml" value="0.14402173913043478" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo/src/main/res/menu/menu.xml" value="0.178125" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo2/src/main/res/drawable/baseline_alarm_add_white_24dp.xml" value="0.1875" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo2/src/main/res/drawable/baseline_alarm_on_white_24dp.xml" value="0.1875" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo2/src/main/res/drawable/baseline_alarm_white_24dp.xml" value="0.1875" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo2/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo2/src/main/res/xml/activity_main_motion_scene.xml" value="0.1358695652173913" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo3/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo3/src/main/res/xml/activity_main_scene.xml" value="0.1453804347826087" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/app/motionlayoutdemo4/src/main/res/layout/activity_main.xml" value="0.16458333333333333" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/appearandhideanimator/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/appearandhideanimator/src/main/res/menu/menu.xml" value="0.178125" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/animation_drawable.xml" value="0.103" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/animation_vector_drawable.xml" value="0.103" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/baseline_accessibility_new_pink_200_24dp.xml" value="0.1" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/baseline_accessibility_pink_200_24dp.xml" value="0.103" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/vector_drawable.xml" value="0.1" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/flinganimationdemo/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/fragmenttransactionanimatordemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/fragmenttransactionanimatordemo/src/main/res/layout/fragment_card_back.xml" value="0.1" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/fragmenttransactionanimatordemo/src/main/res/layout/fragment_card_front.xml" value="0.1" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/fragmenttransactionanimatordemo/src/main/res/menu/menu.xml" value="0.17916666666666667" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/pathinterpolatordemo/src/main/res/layout/activity_main.xml" value="0.15885416666666666" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/senceaniamtiondemo/src/main/res/layout/a_scene.xml" value="0.11770833333333333" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/senceaniamtiondemo/src/main/res/layout/activity_main.xml" value="0.11770833333333333" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/senceaniamtiondemo/src/main/res/layout/another_scene.xml" value="0.11666666666666667" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/springforceanimationdemo/src/main/res/layout/activity_main.xml" value="0.11865942028985507" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/statelistanimatordemo/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/viewanimationutilsdemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/xmlanimationdemo/src/main/res/layout/ac_second.xml" value="0.17916666666666667" />
+        <entry key="..\:/Code/Work/view-learn/AnimatorDemo/zoomanimationdemo/src/main/res/layout/activity_main.xml" value="0.125" />
+        <entry key="..\:/TheComputer/Desktop/view-learn/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/animation_vector_drawable.xml" value="0.117" />
+        <entry key="..\:/TheComputer/Desktop/view/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/animation_vector_drawable.xml" value="0.1" />
+        <entry key="..\:/TheComputer/Desktop/view/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/baseline_accessibility_new_pink_200_24dp.xml" value="0.1" />
+        <entry key="..\:/TheComputer/Desktop/view/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/baseline_accessibility_pink_200_24dp.xml" value="0.1" />
+        <entry key="..\:/TheComputer/Desktop/view/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/baseline_accessible_forward_pink_200_24dp.xml" value="0.1" />
+        <entry key="..\:/TheComputer/Desktop/view/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/baseline_accessible_pink_200_24dp.xml" value="0.1075" />
+        <entry key="..\:/TheComputer/Desktop/view/AnimatorDemo/drawableanimationdemo/src/main/res/drawable/rocket_thrust.xml" value="0.2375" />
+        <entry key="..\:/TheComputer/Desktop/view/AnimatorDemo/drawableanimationdemo/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/TheComputer/Desktop/view/AnimatorDemo/valueanimatordemo/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
