@@ -1,0 +1,18 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()//引用google的扩展依赖库
+        mavenCentral()//引用mavenCentral的扩展依赖库
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.0.3"//gradle可以在多数中项目中使用,那么我们想在android项目中使用就要声明这个插件，有这个插件来帮助我们构建项目
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20"//声明用kotlin进行开发
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

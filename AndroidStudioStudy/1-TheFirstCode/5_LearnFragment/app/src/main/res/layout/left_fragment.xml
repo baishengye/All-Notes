@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:text="Button"/>
+
+    <!--android:gravity：是对view控件本身来说的，是用来设置view本身的文本应该显示在view的什么位置,默认值是左侧
+    android:layout_gravity：是相对于包含改元素的父元素来说的，设置该元素在父元素的什么位置-->
+
+</LinearLayout>

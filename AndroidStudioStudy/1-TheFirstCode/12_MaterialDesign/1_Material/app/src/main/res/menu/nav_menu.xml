@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--指定这个组里面选择的方式:single是单选,all是多选,none是不能选-->
+        <item
+            android:id="@+id/navCall"
+            android:icon="@drawable/nav_call"
+            android:title="打电话"/>
+
+        <item
+            android:id="@+id/navFriend"
+            android:icon="@drawable/nav_friends"
+            android:title="朋友"/>
+
+        <item
+            android:id="@+id/navLocation"
+            android:icon="@drawable/nav_location"
+            android:title="位置"/>
+
+        <item
+            android:id="@+id/navTask"
+            android:icon="@drawable/nav_task"
+            android:title="记事本"/>
+    </group>
+</menu>

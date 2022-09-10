@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_sync_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同步GET"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/bt_async_get"/>
+
+    <Button
+        android:id="@+id/bt_async_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="异步GET"
+        android:layout_centerInParent="true"/>
+
+
+    <Button
+        android:id="@+id/bt_sync_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同步POST"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_async_get"/>
+
+    <Button
+        android:id="@+id/bt_async_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="异步POST"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_sync_post"/>
+
+    <Button
+        android:id="@+id/bt_text_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传文件POST"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_async_post"/>
+
+    <Button
+        android:id="@+id/bt_download_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="异步下载文件"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_text_post"/>
+
+    <Button
+        android:id="@+id/bt_async_post_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="异步上传文件"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_download_file"/>
+
+    <Button
+        android:id="@+id/bt_timeout_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="超时和缓存"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_async_post_file"/>
+
+    <Button
+        android:id="@+id/bt_cancel_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="超时和缓存"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_timeout_get"/>
+</RelativeLayout>

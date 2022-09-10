@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.retrofitTest.RetrofitActivity">
+
+    <Button
+        android:id="@+id/bt_get_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetByPath"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/bt_get_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetByQuery"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_get_path"/>
+
+    <Button
+        android:id="@+id/bt_get_queryMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetByQueryMap"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_get_query"/>
+
+    <Button
+        android:id="@+id/bt_post_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PostByField"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_get_queryMap"/>
+
+    <Button
+        android:id="@+id/bt_post_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PostByBody"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_post_field"/>
+
+
+    <Button
+        android:id="@+id/bt_post_upload_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PostByBody"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_post_body"/>
+</RelativeLayout>

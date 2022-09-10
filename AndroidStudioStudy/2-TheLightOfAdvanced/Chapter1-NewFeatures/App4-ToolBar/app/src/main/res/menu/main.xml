@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/tb_search"
+        android:title="搜索"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="80"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item android:id="@+id/tb_share"
+        android:title="分享"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="90"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"/>
+
+
+    <item android:id="@+id/tb_setting"
+        android:title="设置"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+
+</menu>

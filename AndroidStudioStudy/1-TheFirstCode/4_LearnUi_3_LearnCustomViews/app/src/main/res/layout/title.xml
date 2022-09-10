@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title_bg">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleBack"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/back_bg"
+        android:text="Back"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:text="Title Text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleEdit"
+        android:layout_gravity="center"
+        android:text="Edit"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_bg"
+        android:textColor="#fff"
+        />
+
+    <!--gravity是设置自身内部元素的对齐方式。
+    比如一个TextView，则是设置内部文字的对齐方式。如果是ViewGroup组件如LinearLayout的话，则为设置它内部view组件的对齐方式。
+    layout_gravity是设置自身相当于父容器的对齐方式。
+    比如，一个TextView设置layout_gravity属性，则表示这TextView相对于父容器的对齐方式-->
+
+    <!--layout_margin是指定控件在上下左右方向上的间距
+    其他的有layout_marginLeft,layout_marginRight,layout_marginTop,layout_marginBottom,指明了具体的方向-->
+</LinearLayout>
