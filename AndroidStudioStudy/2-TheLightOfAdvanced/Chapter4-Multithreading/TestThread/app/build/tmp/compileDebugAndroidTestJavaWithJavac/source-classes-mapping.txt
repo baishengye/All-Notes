@@ -1,0 +1,4 @@
+com/bo/testthread/ExampleInstrumentedTest.java
+ com.bo.testthread.ExampleInstrumentedTest
+com/bo/testthread/test/BuildConfig.java
+ com.bo.testthread.test.BuildConfig

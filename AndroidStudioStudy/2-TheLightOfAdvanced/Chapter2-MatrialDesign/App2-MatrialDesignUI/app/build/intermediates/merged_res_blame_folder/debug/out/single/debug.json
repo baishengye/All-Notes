@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_xuanfeng.jpg.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_xuanfeng.jpg"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_banner.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_banner.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_overaction.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\menu\\menu_overaction.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_content.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\activity_main_content.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mao.jpg.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\mao.jpg"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\layout_navigation_header.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\navigation_header.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_discuss.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_discuss.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_dashboard.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_class_icon.jpg.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_class_icon.jpg"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_user.jpg.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_user.jpg"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_check.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_done.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_done.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_headset.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_headset.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_event.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_event.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_class.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_class.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_fragment.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\list_fragment.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawer_view.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\menu\\drawer_view.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_forum.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_forum.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_huge.jpg.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\drawable\\ic_huge.jpg"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_card_main.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\list_item_card_main.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

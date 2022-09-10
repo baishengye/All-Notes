@@ -1,0 +1,4 @@
+com/bo/a4_learnplayvideo/BuildConfig.java
+ com.bo.a4_learnplayvideo.BuildConfig
+com/bo/a4_learnplayvideo/databinding/ActivityMainBinding.java
+ com.bo.a4_learnplayvideo.databinding.ActivityMainBinding

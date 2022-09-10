@@ -1,0 +1,4 @@
+com/bo/a2_learncameraalbum/BuildConfig.java
+ com.bo.a2_learncameraalbum.BuildConfig
+com/bo/a2_learncameraalbum/databinding/ActivityMainBinding.java
+ com.bo.a2_learncameraalbum.databinding.ActivityMainBinding

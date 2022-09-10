@@ -1,0 +1,2 @@
+com/bo/a2_kotlinlearning/test/BuildConfig.java
+ com.bo.a2_kotlinlearning.test.BuildConfig

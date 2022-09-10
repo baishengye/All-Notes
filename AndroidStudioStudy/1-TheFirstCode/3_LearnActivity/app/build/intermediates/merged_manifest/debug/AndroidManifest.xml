@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bo.a3_learnactivity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.3_LearnActivity" >
+        <activity
+            android:name="com.bo.a3_learnactivity.ThirdActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bo.a3_learnactivity.SecondActivity"
+            android:exported="true"
+            android:label="This a SecondActivity"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+
+                <!-- <action>指明了当前这个Activity可以响应com.bo.a3_learnactivity.ACTION_START这个action -->
+                <action android:name="com.bo.a3_learnactivity.ACTION_START" />
+                <!-- <category>包含一些附加信息,更加精确的指明了category能够响应的Intent中可能带有的category -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.bo.a3_learnactivity.MY_CATEGORY" />
+                <!-- 只有<action>和<category>中的内容同时匹配Intent中的action和category，这个Activity才能响应Intent -->
+            </intent-filter>
+        </activity> <!-- android:name指定具体注册哪个Activity -->
+        <!-- 但是此处的.FirstActivity是何含义? -->
+        <!-- 其实是com.bo.a3_learnactivity.FirstActivity，只不过是最外层的<manifest>标签通过package指定了程序的包名是com.bo.a3_learnactivity -->
+        <!-- 所以就只用写.FirstActivity -->
+        <!-- android:label指定的是程序标题栏的内容 -->
+        <activity
+            android:name="com.bo.a3_learnactivity.FirstActivity"
+            android:exported="true"
+            android:label="This a FirstActivity"
+            android:launchMode="singleTask" >
+
+            <!-- 但是到这里还不能运Activity因为还没有指定哪个Activity先启动 -->
+            <!-- 得添加两句代码 -->
+            <intent-filter>
+
+                <!-- 把FirstActivity标记成主程序,首先打开的就是他 -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

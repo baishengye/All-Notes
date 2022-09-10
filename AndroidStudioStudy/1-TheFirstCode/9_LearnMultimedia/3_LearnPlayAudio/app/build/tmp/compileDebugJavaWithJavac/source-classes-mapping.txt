@@ -1,0 +1,4 @@
+com/bo/a3_learnplayaudio/databinding/ActivityMainBinding.java
+ com.bo.a3_learnplayaudio.databinding.ActivityMainBinding
+com/bo/a3_learnplayaudio/BuildConfig.java
+ com.bo.a3_learnplayaudio.BuildConfig

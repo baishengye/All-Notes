@@ -1,0 +1,6 @@
+com/bo/a1_context/databinding/ActivityMainBinding.java
+ com.bo.a1_context.databinding.ActivityMainBinding
+com/bo/a1_context/BuildConfig.java
+ com.bo.a1_context.BuildConfig
+com/bo/a1_context/databinding/ActivityFirstBinding.java
+ com.bo.a1_context.databinding.ActivityFirstBinding

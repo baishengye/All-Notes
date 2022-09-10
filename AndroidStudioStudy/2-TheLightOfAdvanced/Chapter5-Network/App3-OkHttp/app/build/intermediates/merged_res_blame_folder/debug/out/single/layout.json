@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced\\Chapter5-Network\\App3-OkHttp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced\\Chapter5-Network\\App3-OkHttp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced\\Chapter5-Network\\App3-OkHttp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_second.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced\\Chapter5-Network\\App3-OkHttp\\app\\src\\main\\res\\layout\\activity_second.xml"
+    }
+]

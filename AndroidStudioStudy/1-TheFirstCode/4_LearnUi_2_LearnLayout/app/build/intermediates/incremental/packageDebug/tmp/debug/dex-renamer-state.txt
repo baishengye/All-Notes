@@ -1,0 +1,10 @@
+#Sun Mar 06 14:26:15 CST 2022
+base.2=D\:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\4_LearnUi_2_LearnLayout\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+path.2=9/classes.dex
+base.1=D\:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\4_LearnUi_2_LearnLayout\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+path.1=0/classes.dex
+base.0=D\:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\4_LearnUi_2_LearnLayout\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

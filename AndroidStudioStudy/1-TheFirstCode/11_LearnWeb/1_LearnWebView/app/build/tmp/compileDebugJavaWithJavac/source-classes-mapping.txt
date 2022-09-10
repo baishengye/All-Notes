@@ -1,0 +1,4 @@
+com/bo/a1_learnwebview/databinding/ActivityMainBinding.java
+ com.bo.a1_learnwebview.databinding.ActivityMainBinding
+com/bo/a1_learnwebview/BuildConfig.java
+ com.bo.a1_learnwebview.BuildConfig

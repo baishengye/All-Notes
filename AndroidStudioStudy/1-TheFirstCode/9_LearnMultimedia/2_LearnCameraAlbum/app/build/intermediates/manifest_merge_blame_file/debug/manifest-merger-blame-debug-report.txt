@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bo.a2_learncameraalbum"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml
+10    <!-- 权限不能忘 -->
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:5:5-81
+11-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:5:22-78
+12
+13    <application
+13-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:7:5-40:19
+14        android:allowBackup="true"
+14-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.2] E:\Work\Environment\Java\JDK\JDK8\caches\transforms-3\fb0c8bb3a9efcf8598631db06e07b955\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.2_LearnCameraAlbum" >
+22-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:13:9-56
+23        <activity
+23-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:14:9-22:20
+24            android:name="com.bo.a2_learncameraalbum.MainActivity"
+24-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:15:13-41
+25            android:exported="true" >
+25-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:16:13-36
+26            <intent-filter>
+26-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:18:17-69
+27-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:20:17-77
+29-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <!--
+34        在代码里面用到了FileProvider所以需要注册
+35        android:name的值是固定的
+36        android:authorities的值必须要跟代码中的FileProvider.getUriForFile()方法的第二个参数一样
+37        android:exported是否支持其它应用调用当前组件
+38        android:grantUriPermissions是否授予访问Uri的权限
+39        -->
+40        <provider
+40-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:30:9-39:20
+41            android:name="androidx.core.content.FileProvider"
+41-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:32:13-62
+42            android:authorities="com.bo.a2_learncameraalbum.fileprovider"
+42-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:31:13-74
+43            android:exported="false"
+43-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:33:13-37
+44            android:grantUriPermissions="true" >
+44-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:34:13-47
+45            <meta-data
+45-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:35:13-37:54
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:36:17-67
+47                android:resource="@xml/file_paths" />
+47-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\9_LearnMultimedia\2_LearnCameraAlbum\app\src\main\AndroidManifest.xml:37:17-51
+48            <!-- meta-data指定共享路径 -->
+49        </provider>
+50    </application>
+51
+52</manifest>

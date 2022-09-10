@@ -1,0 +1,4 @@
+#Wed Jun 08 13:37:59 CST 2022
+base.0=D\:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\3-AndroidJetpackApplicationGuide\\Chapter2-LifeCycle\\App1-LifeCycle\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

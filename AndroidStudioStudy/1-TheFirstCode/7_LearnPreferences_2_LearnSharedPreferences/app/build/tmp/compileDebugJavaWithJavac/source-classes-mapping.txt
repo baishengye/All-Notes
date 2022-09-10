@@ -1,0 +1,2 @@
+com/bo/a7_learnpreferences_2_learnsharedpreferences/BuildConfig.java
+ com.bo.a7_learnpreferences_2_learnsharedpreferences.BuildConfig

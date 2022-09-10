@@ -1,0 +1,2 @@
+com/bo/a4_learnui_3_learncustomviews/BuildConfig.java
+ com.bo.a4_learnui_3_learncustomviews.BuildConfig

@@ -1,0 +1,2 @@
+com/bo/a4_learnui_6_uidemo/BuildConfig.java
+ com.bo.a4_learnui_6_uidemo.BuildConfig

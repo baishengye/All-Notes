@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\14_More\\1_Context\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v29\\values-v29.xml",
+            "map": [
+                {
+                    "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\14_More\\1_Context\\app\\src\\main\\res\\values-v29\\themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "142",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "921"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "864"
+                    }
+                }
+            ]
+        }
+    ]
+}

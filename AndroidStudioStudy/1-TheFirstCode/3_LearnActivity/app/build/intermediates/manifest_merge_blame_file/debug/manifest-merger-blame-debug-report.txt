@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bo.a3_learnactivity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:8:5-10:41
+8        android:minSdkVersion="21"
+8-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:9:9-35
+9        android:targetSdkVersion="30" />
+9-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:10:9-38
+10
+11    <application
+11-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:12:5-64:19
+12        android:allowBackup="true"
+12-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:13:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:14:9-77
+14        android:debuggable="true"
+14-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:15:9-35
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:16:9-43
+16        android:label="@string/app_name"
+16-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:17:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:18:9-54
+18        android:supportsRtl="true"
+18-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:19:9-35
+19        android:testOnly="true"
+19-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:20:9-32
+20        android:theme="@style/Theme.3_LearnActivity" >
+20-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:21:9-53
+21        <activity
+21-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:23:9-31:20
+22            android:name="com.bo.a3_learnactivity.ThirdActivity"
+22-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:24:13-42
+23            android:exported="true" >
+23-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:25:13-36
+24            <intent-filter>
+24-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:26:13-30:29
+25                <action android:name="android.intent.action.VIEW" />
+25-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:27:17-68
+25-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:27:25-66
+26
+27                <category android:name="android.intent.category.DEFAULT" />
+27-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:28:17-75
+27-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:28:27-73
+28
+29                <data android:scheme="https" />
+29-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:29:17-47
+29-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:29:23-45
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:32:9-46:20
+33            android:name="com.bo.a3_learnactivity.SecondActivity"
+33-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:33:13-43
+34            android:exported="true"
+34-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:35:13-36
+35            android:label="This a SecondActivity"
+35-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:36:13-50
+36            android:launchMode="singleInstance" >
+36-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:34:13-48
+37            <intent-filter>
+37-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:37:13-45:29
+38
+39                <!-- <action>指明了当前这个Activity可以响应com.bo.a3_learnactivity.ACTION_START这个action -->
+40                <action android:name="com.bo.a3_learnactivity.ACTION_START" />
+40-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:40:17-79
+40-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:40:25-76
+41                <!-- <category>包含一些附加信息,更加精确的指明了category能够响应的Intent中可能带有的category -->
+42                <category android:name="android.intent.category.DEFAULT" />
+42-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:28:17-75
+42-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:28:27-73
+43                <category android:name="com.bo.a3_learnactivity.MY_CATEGORY" />
+43-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:43:17-80
+43-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:43:27-77
+44                <!-- 只有<action>和<category>中的内容同时匹配Intent中的action和category，这个Activity才能响应Intent -->
+45            </intent-filter>
+46        </activity> <!-- android:name指定具体注册哪个Activity -->
+47        <!-- 但是此处的.FirstActivity是何含义? -->
+48        <!-- 其实是com.bo.a3_learnactivity.FirstActivity，只不过是最外层的<manifest>标签通过package指定了程序的包名是com.bo.a3_learnactivity -->
+49        <!-- 所以就只用写.FirstActivity -->
+50        <!-- android:label指定的是程序标题栏的内容 -->
+51        <activity
+51-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:51:9-63:20
+52            android:name="com.bo.a3_learnactivity.FirstActivity"
+52-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:52:13-42
+53            android:exported="true"
+53-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:54:13-36
+54            android:label="This a FirstActivity"
+54-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:55:13-49
+55            android:launchMode="singleTask" >
+55-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:53:13-44
+56
+57            <!-- 但是到这里还不能运Activity因为还没有指定哪个Activity先启动 -->
+58            <!-- 得添加两句代码 -->
+59            <intent-filter>
+59-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:58:13-62:29
+60
+61                <!-- 把FirstActivity标记成主程序,首先打开的就是他 -->
+62                <action android:name="android.intent.action.MAIN" />
+62-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:60:17-69
+62-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:60:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:61:17-77
+64-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\3_LearnActivity\app\src\main\AndroidManifest.xml:61:27-74
+65            </intent-filter>
+66        </activity>
+67    </application>
+68
+69</manifest>

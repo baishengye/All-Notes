@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\view_fold.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\src\\main\\res\\layout\\view_fold.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notification.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\src\\main\\res\\layout\\notification.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notification_small.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\src\\main\\res\\layout\\notification_small.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notification_big.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App3-Notification\\app\\src\\main\\res\\layout\\notification_big.xml"
+    }
+]

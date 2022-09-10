@@ -1,0 +1,2 @@
+com/bo/a4_learnui_1_learnuiwidget/BuildConfig.java
+ com.bo.a4_learnui_1_learnuiwidget.BuildConfig

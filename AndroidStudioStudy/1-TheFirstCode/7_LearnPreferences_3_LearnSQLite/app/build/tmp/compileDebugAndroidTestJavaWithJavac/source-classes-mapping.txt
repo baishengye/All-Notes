@@ -1,0 +1,2 @@
+com/bo/a7_learnpreferences_3_learnsqlite/test/BuildConfig.java
+ com.bo.a7_learnpreferences_3_learnsqlite.test.BuildConfig

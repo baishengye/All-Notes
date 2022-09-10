@@ -1,0 +1,11 @@
+com/bo/app4_toolbar/databinding/ActivityMainBinding.java
+ com.bo.app4_toolbar.databinding.ActivityMainBinding
+com/bo/app4_toolbar/databinding/MyToolbarBinding.java
+ com.bo.app4_toolbar.databinding.MyToolbarBinding
+com/bo/app4_toolbar/BuildConfig.java
+ com.bo.app4_toolbar.BuildConfig
+com/bo/app4_toolbar/BaseActivity.java
+ com.bo.app4_toolbar.BaseActivity
+com/bo/app4_toolbar/MainActivity.java
+ com.bo.app4_toolbar.MainActivity
+ com.bo.app4_toolbar.MainActivity$1

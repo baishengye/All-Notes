@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_content.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\activity_main_content.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item_card_main.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\list_item_card_main.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_fragment.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\list_fragment.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\navigation_header.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\App2-MatrialDesignUI\\app\\src\\main\\res\\layout\\navigation_header.xml"
+    }
+]

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.room:room-runtime:2.1.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://E:/Work/Environment/Java/JDK/JDK8/caches/transforms-3/63ceb71fb24b20ec8af11f0b1ad5c076/transformed/room-runtime-2.1.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://E:/Work/Environment/Java/JDK/JDK8/caches/transforms-3/63ceb71fb24b20ec8af11f0b1ad5c076/transformed/room-runtime-2.1.0/jars/classes.jar!/" />
+      <root url="jar://E:/Work/Environment/Java/JDK/JDK8/caches/transforms-3/63ceb71fb24b20ec8af11f0b1ad5c076/transformed/room-runtime-2.1.0/jars/libs/room-common-java8-2.1.0.jar!/" />
+      <root url="file://E:/Work/Environment/Java/JDK/JDK8/caches/transforms-3/63ceb71fb24b20ec8af11f0b1ad5c076/transformed/room-runtime-2.1.0/res" />
+      <root url="file://E:/Work/Environment/Java/JDK/JDK8/caches/transforms-3/63ceb71fb24b20ec8af11f0b1ad5c076/transformed/room-runtime-2.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/Work/Environment/Java/JDK/JDK8/caches/modules-2/files-2.1/androidx.room/room-runtime/2.1.0/d8abe9eb51ecfe12017cbd78b8602361e804eac8/room-runtime-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

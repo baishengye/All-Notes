@@ -1,0 +1,2 @@
+com/bo/a7_learnpersistence_1_learnfile/BuildConfig.java
+ com.bo.a7_learnpersistence_1_learnfile.BuildConfig

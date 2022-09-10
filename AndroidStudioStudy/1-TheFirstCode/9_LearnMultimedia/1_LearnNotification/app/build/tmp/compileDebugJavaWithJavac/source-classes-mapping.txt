@@ -1,0 +1,6 @@
+com/bo/a1_learnnotification/BuildConfig.java
+ com.bo.a1_learnnotification.BuildConfig
+com/bo/a1_learnnotification/databinding/ActivityMainBinding.java
+ com.bo.a1_learnnotification.databinding.ActivityMainBinding
+com/bo/a1_learnnotification/databinding/ActivityNotificationBinding.java
+ com.bo.a1_learnnotification.databinding.ActivityNotificationBinding

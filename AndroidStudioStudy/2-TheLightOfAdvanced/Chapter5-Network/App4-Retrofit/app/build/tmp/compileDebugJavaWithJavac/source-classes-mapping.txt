@@ -1,0 +1,29 @@
+com/bo/app4_retrofit/logic/model/IpModel.java
+ com.bo.app4_retrofit.logic.model.IpModel
+ com.bo.app4_retrofit.logic.model.IpModel$IpData
+com/bo/app4_retrofit/BuildConfig.java
+ com.bo.app4_retrofit.BuildConfig
+com/bo/app4_retrofit/logic/model/ResponseBase.java
+ com.bo.app4_retrofit.logic.model.ResponseBase
+com/bo/app4_retrofit/BaseActivity.java
+ com.bo.app4_retrofit.BaseActivity
+com/bo/app4_retrofit/logic/network/RetrofitCreator.java
+ com.bo.app4_retrofit.logic.network.RetrofitCreator
+com/bo/app4_retrofit/databinding/ActivityRetrofitBinding.java
+ com.bo.app4_retrofit.databinding.ActivityRetrofitBinding
+com/bo/app4_retrofit/logic/network/Service.java
+ com.bo.app4_retrofit.logic.network.Service
+com/bo/app4_retrofit/ui/retrofitTest/RetrofitActivity.java
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$1
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$1$1
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$2
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$2$1
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$3
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$3$1
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$4
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$4$1
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$5
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$5$1
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$6
+ com.bo.app4_retrofit.ui.retrofitTest.RetrofitActivity$6$1

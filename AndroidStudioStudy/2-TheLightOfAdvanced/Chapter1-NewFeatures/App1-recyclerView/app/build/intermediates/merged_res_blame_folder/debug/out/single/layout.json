@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App1-recyclerView\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App1-recyclerView\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App1-recyclerView\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_second.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App1-recyclerView\\app\\src\\main\\res\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App1-recyclerView\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App1-recyclerView\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

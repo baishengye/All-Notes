@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App4-ToolBar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\my_toolbar.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App4-ToolBar\\app\\src\\main\\res\\layout\\my_toolbar.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App4-ToolBar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App4-ToolBar\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

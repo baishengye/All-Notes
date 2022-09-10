@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/6_LearnBroadcast_BroadDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/6_LearnBroadcast_BroadDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/6_LearnBroadcast_BroadDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/6_LearnBroadcast_BroadDemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/6_LearnBroadcast_BroadDemo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/6_LearnBroadcast_BroadDemo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/6_LearnBroadcast_BroadDemo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/6_LearnBroadcast_BroadDemo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/6_LearnBroadcast_BroadDemo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/6_LearnBroadcast_BroadDemo.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

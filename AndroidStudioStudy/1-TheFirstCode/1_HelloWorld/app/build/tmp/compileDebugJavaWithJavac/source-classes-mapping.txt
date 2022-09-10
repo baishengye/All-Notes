@@ -1,0 +1,2 @@
+com/bo/a1_helloworld/BuildConfig.java
+ com.bo.a1_helloworld.BuildConfig

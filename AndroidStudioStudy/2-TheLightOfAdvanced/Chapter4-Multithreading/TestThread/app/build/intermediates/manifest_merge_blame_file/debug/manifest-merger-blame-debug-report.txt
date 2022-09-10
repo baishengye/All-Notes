@@ -1,0 +1,31 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bo.testthread"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\2-TheLightOfAdvanced\Chapter4-Multithreading\TestThread\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\2-TheLightOfAdvanced\Chapter4-Multithreading\TestThread\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\2-TheLightOfAdvanced\Chapter4-Multithreading\TestThread\app\src\main\AndroidManifest.xml:5:5-11:51
+12        android:allowBackup="true"
+12-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\2-TheLightOfAdvanced\Chapter4-Multithreading\TestThread\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\19634\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\2-TheLightOfAdvanced\Chapter4-Multithreading\TestThread\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\2-TheLightOfAdvanced\Chapter4-Multithreading\TestThread\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\2-TheLightOfAdvanced\Chapter4-Multithreading\TestThread\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\2-TheLightOfAdvanced\Chapter4-Multithreading\TestThread\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/Theme.TestThread" />
+19-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\2-TheLightOfAdvanced\Chapter4-Multithreading\TestThread\app\src\main\AndroidManifest.xml:11:9-48
+20
+21</manifest>

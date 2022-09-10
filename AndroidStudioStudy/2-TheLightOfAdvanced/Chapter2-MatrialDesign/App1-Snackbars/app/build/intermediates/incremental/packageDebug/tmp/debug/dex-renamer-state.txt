@@ -1,0 +1,4 @@
+#Wed Jun 08 14:40:24 CST 2022
+base.0=D\:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter2-MatrialDesign\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

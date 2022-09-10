@@ -1,0 +1,2 @@
+com/bo/a3_learnactivity/BuildConfig.java
+ com.bo.a3_learnactivity.BuildConfig

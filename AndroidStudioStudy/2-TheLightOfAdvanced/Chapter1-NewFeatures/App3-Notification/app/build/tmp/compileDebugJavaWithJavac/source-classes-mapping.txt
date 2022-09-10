@@ -1,0 +1,10 @@
+com/bo/app3_notification/databinding/ActivityMainBinding.java
+ com.bo.app3_notification.databinding.ActivityMainBinding
+com/bo/app3_notification/BuildConfig.java
+ com.bo.app3_notification.BuildConfig
+com/bo/app3_notification/BaseActivity.java
+ com.bo.app3_notification.BaseActivity
+com/bo/app3_notification/databinding/ViewFoldBinding.java
+ com.bo.app3_notification.databinding.ViewFoldBinding
+com/bo/app3_notification/MainActivity.java
+ com.bo.app3_notification.MainActivity

@@ -1,0 +1,10 @@
+com/bo/app1_lifecycle/BuildConfig.java
+ com.bo.app1_lifecycle.BuildConfig
+com/bo/app1_lifecycle/databinding/ActivityMainBinding.java
+ com.bo.app1_lifecycle.databinding.ActivityMainBinding
+com/bo/app1_lifecycle/activity/MainActivity.java
+ com.bo.app1_lifecycle.activity.MainActivity
+ com.bo.app1_lifecycle.activity.MainActivity$1
+com/bo/app1_lifecycle/Listener/MyLocationListener.java
+ com.bo.app1_lifecycle.Listener.MyLocationListener
+ com.bo.app1_lifecycle.Listener.MyLocationListener$OnLocationChangedListener

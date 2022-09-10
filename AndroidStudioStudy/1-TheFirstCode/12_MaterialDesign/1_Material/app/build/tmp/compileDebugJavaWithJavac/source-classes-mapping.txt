@@ -1,0 +1,10 @@
+com/bo/a1_material/BuildConfig.java
+ com.bo.a1_material.BuildConfig
+com/bo/a1_material/databinding/ActivityFruitBinding.java
+ com.bo.a1_material.databinding.ActivityFruitBinding
+com/bo/a1_material/databinding/NavHeaderBinding.java
+ com.bo.a1_material.databinding.NavHeaderBinding
+com/bo/a1_material/databinding/ActivityMainBinding.java
+ com.bo.a1_material.databinding.ActivityMainBinding
+com/bo/a1_material/databinding/FruitItemBinding.java
+ com.bo.a1_material.databinding.FruitItemBinding

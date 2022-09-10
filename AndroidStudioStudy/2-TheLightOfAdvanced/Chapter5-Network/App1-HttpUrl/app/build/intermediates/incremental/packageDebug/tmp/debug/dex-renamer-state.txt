@@ -1,0 +1,4 @@
+#Sun Jun 12 13:18:05 CST 2022
+base.0=D\:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced\\Chapter5-Network\\App1-HttpUrl\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

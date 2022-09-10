@@ -1,0 +1,4 @@
+#Mon Jun 06 09:07:08 CST 2022
+base.0=D\:\\Code\\AndroidStudioProjects\\AndroidStudioStudy\\2-TheLightOfAdvanced2.0\\Chapter1-NewFeatures\\App1-recyclerView\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

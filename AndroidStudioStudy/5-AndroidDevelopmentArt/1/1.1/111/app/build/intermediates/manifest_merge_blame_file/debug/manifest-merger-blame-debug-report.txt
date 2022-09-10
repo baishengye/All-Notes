@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xiaoyingbo.a111"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:6:5-30:19
+12        android:allowBackup="true"
+12-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] E:\Work\Environment\Android\AndroidCache\.gradle\caches\transforms-3\4cb2d3ae910a25e4d3b75b6b0d8d1b11\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:9:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.111" >
+22-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:14:9-41
+23        <activity
+23-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:16:9-19:60
+24            android:name="com.xiaoyingbo.a111.SecondActivity"
+24-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:17:13-43
+25            android:exported="false"
+25-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:18:13-37
+26            android:theme="@style/Theme.AppCompat.Dialog" />
+26-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:19:13-58
+27        <activity
+27-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:20:9-29:20
+28            android:name="com.xiaoyingbo.a111.MainActivity"
+28-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:21:13-41
+29            android:configChanges="orientation|screenSize"
+29-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:23:13-59
+30            android:exported="true" >
+30-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:22:13-36
+31            <intent-filter>
+31-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:24:13-28:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:25:17-69
+32-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:27:17-77
+34-->D:\Code\AndroidStudioProjects\AndroidStudioStudy\5-AndroidDevelopmentArt\1\1.1\111\app\src\main\AndroidManifest.xml:27:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>

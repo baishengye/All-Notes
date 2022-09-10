@@ -1,0 +1,2 @@
+com/bo/a4_learnplayvideo/test/BuildConfig.java
+ com.bo.a4_learnplayvideo.test.BuildConfig

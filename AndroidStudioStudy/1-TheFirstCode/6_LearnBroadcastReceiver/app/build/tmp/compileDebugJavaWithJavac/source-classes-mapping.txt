@@ -1,0 +1,2 @@
+com/bo/a6_learnbroadcastreceiver/BuildConfig.java
+ com.bo.a6_learnbroadcastreceiver.BuildConfig

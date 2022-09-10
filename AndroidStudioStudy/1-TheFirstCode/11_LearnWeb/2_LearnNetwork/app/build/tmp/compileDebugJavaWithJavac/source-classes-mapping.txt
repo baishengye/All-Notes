@@ -1,0 +1,4 @@
+com/bo/a2_learnnetwork/BuildConfig.java
+ com.bo.a2_learnnetwork.BuildConfig
+com/bo/a2_learnnetwork/databinding/ActivityMainBinding.java
+ com.bo.a2_learnnetwork.databinding.ActivityMainBinding

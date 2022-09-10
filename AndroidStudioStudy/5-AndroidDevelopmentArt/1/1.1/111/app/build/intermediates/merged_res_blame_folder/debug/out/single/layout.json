@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.xiaoyingbo.a111.app-mergeDebugResources-4:/layout/activity_second.xml",
+        "source": "com.xiaoyingbo.a111.app-main-7:/layout/activity_second.xml"
+    },
+    {
+        "merged": "com.xiaoyingbo.a111.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.xiaoyingbo.a111.app-main-7:/layout/activity_main.xml"
+    }
+]

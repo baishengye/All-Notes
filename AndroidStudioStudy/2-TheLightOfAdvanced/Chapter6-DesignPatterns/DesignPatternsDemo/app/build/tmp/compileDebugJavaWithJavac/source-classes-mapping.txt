@@ -1,0 +1,72 @@
+com/bo/designpatternsdemo/BaseActivity.java
+ com.bo.designpatternsdemo.BaseActivity
+com/bo/designpatternsdemo/BuildConfig.java
+ com.bo.designpatternsdemo.BuildConfig
+com/bo/designpatternsdemo/SingletonTest.java
+ com.bo.designpatternsdemo.Singleton1
+ com.bo.designpatternsdemo.Singleton2
+ com.bo.designpatternsdemo.Singleton3
+ com.bo.designpatternsdemo.Singleton4
+ com.bo.designpatternsdemo.Singleton5
+ com.bo.designpatternsdemo.Singleton5$GetSingleton
+ com.bo.designpatternsdemo.Singleton6
+ com.bo.designpatternsdemo.SingletonTest
+com/bo/designpatternsdemo/BuilderTest.java
+ com.bo.designpatternsdemo.BuilderTest
+ com.bo.designpatternsdemo.BuilderTest$Builder
+ com.bo.designpatternsdemo.BuilderTest$Computer
+ com.bo.designpatternsdemo.BuilderTest$ComputerBuilder
+ com.bo.designpatternsdemo.BuilderTest$Worker
+com/bo/designpatternsdemo/ProxyTest.java
+ com.bo.designpatternsdemo.ProxyTest
+ com.bo.designpatternsdemo.ProxyTest$Buyer
+ com.bo.designpatternsdemo.ProxyTest$DynamicProxy
+ com.bo.designpatternsdemo.ProxyTest$IShop
+ com.bo.designpatternsdemo.ProxyTest$Proxy
+com/bo/designpatternsdemo/FactoryMethod.java
+ com.bo.designpatternsdemo.FactoryMethod
+ com.bo.designpatternsdemo.FactoryMethod$ComputerFactory
+ com.bo.designpatternsdemo.FactoryMethod$FSKComputerFactory
+com/bo/designpatternsdemo/SimpleFactory.java
+ com.bo.designpatternsdemo.AsusComputer
+ com.bo.designpatternsdemo.Computer
+ com.bo.designpatternsdemo.HpComputer
+ com.bo.designpatternsdemo.LenovoComputer
+ com.bo.designpatternsdemo.SimpleFactory
+com/bo/designpatternsdemo/DecoratorTest.java
+ com.bo.designpatternsdemo.DecoratorTest
+ com.bo.designpatternsdemo.DecoratorTest$HongQiGong
+ com.bo.designpatternsdemo.DecoratorTest$Master
+ com.bo.designpatternsdemo.DecoratorTest$OuYangFeng
+ com.bo.designpatternsdemo.DecoratorTest$Swordsman
+ com.bo.designpatternsdemo.DecoratorTest$YangGuo
+com/bo/designpatternsdemo/FacadeTest.java
+ com.bo.designpatternsdemo.FacadeTest
+ com.bo.designpatternsdemo.FacadeTest$JingMai
+ com.bo.designpatternsdemo.FacadeTest$NeiGong
+ com.bo.designpatternsdemo.FacadeTest$ZhangWuJi
+ com.bo.designpatternsdemo.FacadeTest$ZhaoShi
+com/bo/designpatternsdemo/FlyweightTest.java
+ com.bo.designpatternsdemo.FlyweightTest
+ com.bo.designpatternsdemo.FlyweightTest$Goods
+ com.bo.designpatternsdemo.FlyweightTest$GoodsFactory
+ com.bo.designpatternsdemo.FlyweightTest$IGoods
+com/bo/designpatternsdemo/databinding/ActivityMainBinding.java
+ com.bo.designpatternsdemo.databinding.ActivityMainBinding
+com/bo/designpatternsdemo/MainActivity.java
+ com.bo.designpatternsdemo.MainActivity
+ com.bo.designpatternsdemo.MainActivity$1
+ com.bo.designpatternsdemo.MainActivity$2
+ com.bo.designpatternsdemo.MainActivity$3
+ com.bo.designpatternsdemo.MainActivity$4
+ com.bo.designpatternsdemo.MainActivity$5
+ com.bo.designpatternsdemo.MainActivity$6
+ com.bo.designpatternsdemo.MainActivity$7
+ com.bo.designpatternsdemo.MainActivity$8
+com/bo/designpatternsdemo/StrategyTest.java
+ com.bo.designpatternsdemo.StrategyTest
+ com.bo.designpatternsdemo.StrategyTest$Context
+ com.bo.designpatternsdemo.StrategyTest$HighStrategy
+ com.bo.designpatternsdemo.StrategyTest$IStrategy
+ com.bo.designpatternsdemo.StrategyTest$LowStrategy
+ com.bo.designpatternsdemo.StrategyTest$MidStrategy

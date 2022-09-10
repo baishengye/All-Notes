@@ -1,0 +1,1 @@
+com.bo.a7_learnpreferences_3_learnsqlite.test
