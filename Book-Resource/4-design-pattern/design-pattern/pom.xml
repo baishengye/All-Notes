@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bo</groupId>
+    <artifactId>DesignPattern</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>简单工厂模式</module>
+        <module>策略模式</module>
+        <module>6大设计原则</module>
+        <module>装饰模式</module>
+        <module>代理模式</module>
+        <module>工厂方法模式</module>
+        <module>原型模式</module>
+        <module>模板方法模式</module>
+        <module>外观模式</module>
+        <module>建造者模式</module>
+        <module>观察者模式</module>
+        <module>抽象工厂模式</module>
+        <module>状态模式</module>
+        <module>适配器模式</module>
+        <module>备忘录模式</module>
+        <module>组合模式</module>
+        <module>迭代器模式</module>
+        <module>单例模式</module>
+        <module>桥接模式</module>
+        <module>桥接模式</module>
+        <module>命令模式</module>
+        <module>职责链模式</module>
+        <module>中介模式</module>
+        <module>享元模式</module>
+        <module>解释器模式</module>
+        <module>解释器模式</module>
+        <module>访问者模式</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>

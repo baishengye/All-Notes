@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jinxin.jetpacktest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.jinxin.lifecycle.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name="com.jinxin.jetpacktest.databinding.RecyclerViewBindingActivity"/>
+        <activity android:name="com.jinxin.jetpacktest.databinding.TowWayBindingActivity"/>
+        <activity android:name="com.jinxin.jetpacktest.databinding.DataBindingTestActivity"/>
+        <activity android:name="com.jinxin.jetpacktest.workmanager.WorkManagerTestActivity" />
+        <activity android:name="com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity" />
+        <activity android:name="com.jinxin.jetpacktest.room.RoomTestActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

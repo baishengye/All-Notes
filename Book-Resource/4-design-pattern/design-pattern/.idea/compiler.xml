@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MediatorPattern" />
+        <module name="职责链模式" />
+        <module name="FactoryMethodPattern" />
+        <module name="原型模式" />
+        <module name="FlyweightPattern" />
+        <module name="享元模式" />
+        <module name="AbstractFactoryPattern" />
+        <module name="TemplateMethodPattern" />
+        <module name="桥接模式" />
+        <module name="AdapterPattern" />
+        <module name="StrategyMode" />
+        <module name="InterpreterPattern" />
+        <module name="模板方法模式" />
+        <module name="简单工厂模式" />
+        <module name="TheProxyPattern" />
+        <module name="ObserverPattern" />
+        <module name="观察者模式" />
+        <module name="PrototypePattern" />
+        <module name="SimpleFactoryMode" />
+        <module name="工厂方法模式" />
+        <module name="StatePattern" />
+        <module name="适配器模式" />
+        <module name="组合模式" />
+        <module name="ChainOfResponsibility" />
+        <module name="MementoPattern" />
+        <module name="访问者模式" />
+        <module name="备忘录模式" />
+        <module name="状态模式" />
+        <module name="CommandPattern" />
+        <module name="VisitorPattern" />
+        <module name="命令模式" />
+        <module name="FacadePatterns" />
+        <module name="策略模式" />
+        <module name="代理模式" />
+        <module name="抽象工厂模式" />
+        <module name="DecorativePattern" />
+        <module name="装饰模式" />
+        <module name="解释器模式" />
+        <module name="SingletonPattern" />
+        <module name="外观模式" />
+        <module name="中介模式" />
+        <module name="IteratorPattern" />
+        <module name="BridgePattern" />
+        <module name="CompositePattern" />
+        <module name="迭代器模式" />
+        <module name="DesignPrinciples" />
+        <module name="BuilderPattern" />
+        <module name="建造者模式" />
+        <module name="6大设计原则" />
+        <module name="单例模式" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="单一职责原则" target="8" />
+      <module name="解释器模式.md" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

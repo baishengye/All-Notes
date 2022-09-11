@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">JetpackTest</string>
+
+    <string name="btn_life_cycle">LifeCycle</string>
+    <string name="btn_navigation">Navigation</string>
+    <string name="btn_navigation_ui">NavigationUI</string>
+    <string name="btn_view_model">ViewModel</string>
+    <string name="btn_live_data">LiveData</string>
+    <string name="btn_live_data_fragment">LiveDataFragment</string>
+    <string name="btn_room">Room</string>
+    <string name="btn_live_data_view_model_room">LiveData+ViewModel+Room</string>
+    <string name="btn_work_manager">WorkManager</string>
+    <string name="btn_data_binding">DataBinding</string>
+    <string name="btn_two_way_binding">DataBinding双向绑定</string>
+    <string name="btn_recycle_view_binding">DataBinding-Recycler绑定</string>
+    <string name="btn_paging_positional">Paging - Positional</string>
+    <string name="btn_paging_page_keyed">Paging - PageKeyed</string>
+    <string name="btn_paging_item_keyed">Paging - ItemKeyed</string>
+    <string name="btn_paging_boundary_callback">Paging - BoundaryCallback</string>
+    <string name="btn_mvvm">MVVM架构</string>
+
+    <string name="fragment_main_tv_hint">hello main</string>
+    <string name="fragment_main_btn_to_second_fragment">ToSecond</string>
+    <string name="fragment_second_tv_hint">hello second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
