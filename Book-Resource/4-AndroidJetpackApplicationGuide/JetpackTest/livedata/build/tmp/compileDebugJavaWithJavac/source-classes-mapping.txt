@@ -1,0 +1,19 @@
+com/jinxin/livedata/fragment/OneFragment.java
+ com.jinxin.livedata.fragment.OneFragment
+ com.jinxin.livedata.fragment.OneFragment$1
+ com.jinxin.livedata.fragment.OneFragment$2
+com/jinxin/livedata/BuildConfig.java
+ com.jinxin.livedata.BuildConfig
+com/jinxin/livedata/fragment/FragmentActivity.java
+ com.jinxin.livedata.fragment.FragmentActivity
+com/jinxin/livedata/fragment/TwoFragment.java
+ com.jinxin.livedata.fragment.TwoFragment
+ com.jinxin.livedata.fragment.TwoFragment$1
+ com.jinxin.livedata.fragment.TwoFragment$2
+com/jinxin/livedata/TimerLiveDataActivity.java
+ com.jinxin.livedata.TimerLiveDataActivity
+com/jinxin/livedata/fragment/ShareDataViewModel.java
+ com.jinxin.livedata.fragment.ShareDataViewModel
+com/jinxin/livedata/TimerLiveDataViewModel.java
+ com.jinxin.livedata.TimerLiveDataViewModel
+ com.jinxin.livedata.TimerLiveDataViewModel$1

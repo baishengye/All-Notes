@@ -1,0 +1,29 @@
+com/jinxin/mvvm/repository/UserRepository.java
+ com.jinxin.mvvm.repository.UserRepository
+ com.jinxin.mvvm.repository.UserRepository$1
+ com.jinxin.mvvm.repository.UserRepository$2
+com/jinxin/mvvm/bindingadapter/ImageViewBindingAdapter.java
+ com.jinxin.mvvm.bindingadapter.ImageViewBindingAdapter
+com/jinxin/mvvm/databinding/ActivityMvvmMainBinding.java
+ com.jinxin.mvvm.databinding.ActivityMvvmMainBinding
+com/jinxin/mvvm/db/UserDatabase.java
+ com.jinxin.mvvm.db.UserDatabase
+com/jinxin/mvvm/DataBindingTriggerClass.java
+ com.jinxin.mvvm.DataBindingTriggerClass
+com/jinxin/mvvm/viewmodel/UserViewModel.java
+ com.jinxin.mvvm.viewmodel.UserViewModel
+com/jinxin/mvvm/MvvmApplication.java
+ com.jinxin.mvvm.MvvmApplication
+com/jinxin/mvvm/BuildConfig.java
+ com.jinxin.mvvm.BuildConfig
+com/jinxin/mvvm/db/UserDao.java
+ com.jinxin.mvvm.db.UserDao
+com/jinxin/mvvm/model/User.java
+ com.jinxin.mvvm.model.User
+com/jinxin/mvvm/api/Api.java
+ com.jinxin.mvvm.api.Api
+com/jinxin/mvvm/api/RetrofitClient.java
+ com.jinxin.mvvm.api.RetrofitClient
+com/jinxin/mvvm/MainActivity.java
+ com.jinxin.mvvm.MainActivity
+ com.jinxin.mvvm.MainActivity$1

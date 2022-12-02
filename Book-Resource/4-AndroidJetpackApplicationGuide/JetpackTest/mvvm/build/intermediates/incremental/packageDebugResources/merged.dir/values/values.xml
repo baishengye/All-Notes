@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="followers">关注 %s</string>
+    <string name="following">粉丝 %s</string>
+    <string name="location">位置 %s</string>
+</resources>

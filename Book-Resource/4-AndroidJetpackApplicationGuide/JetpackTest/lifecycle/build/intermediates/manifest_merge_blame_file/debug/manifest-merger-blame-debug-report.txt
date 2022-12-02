@@ -1,0 +1,35 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.jinxin.lifecycle"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml
+11
+12    <application
+12-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:5:5-14:19
+13        android:name="com.jinxin.lifecycle.application.MyApplication"
+13-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:6:9-50
+14        tools:ignore="Instantiatable" >
+14-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:7:9-38
+15        <service android:name="com.jinxin.lifecycle.service.MyService" />
+15-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:9:9-54
+15-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:9:18-51
+16
+17        <activity android:name="com.jinxin.lifecycle.activity.LifeCycleActivity" />
+17-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:11:9-64
+17-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:11:19-61
+18        <activity android:name="com.jinxin.lifecycle.LifecycleMainActivity" />
+18-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:12:9-59
+18-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:12:19-56
+19        <activity android:name="com.jinxin.lifecycle.service.LifecycleServiceActivity" />
+19-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:13:9-70
+19-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\lifecycle\src\main\AndroidManifest.xml:13:19-67
+20    </application>
+21
+22</manifest>

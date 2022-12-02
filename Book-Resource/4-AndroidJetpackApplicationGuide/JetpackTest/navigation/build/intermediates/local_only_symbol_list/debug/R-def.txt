@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
+drawable ic_launcher_background
+id action_mainFragment_to_secondFragment
+id btn_send_notification
+id btn_to_second_fragment_1
+id btn_to_second_fragment_2
+id mainFragment
+id nav_graph
+id nav_graph_test
+id nav_host_fragment
+id nav_host_fragment_test
+id oneTestFragment
+id secondFragment
+id tv_age
+id tv_title
+id tv_user_name
+id twoTestFragment
+layout activity_navigation
+layout activity_test
+layout fragment_main
+layout fragment_one_test
+layout fragment_second
+layout fragment_two_test
+menu menu_setting
+navigation nav_graph
+navigation nav_graph_test
+string hello_blank_fragment

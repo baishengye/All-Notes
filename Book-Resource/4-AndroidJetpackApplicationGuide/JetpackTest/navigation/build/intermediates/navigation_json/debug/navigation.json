@@ -1,0 +1,39 @@
+[
+  {
+    "name": "nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": [
+      {
+        "schemes": [
+          "http",
+          "https"
+        ],
+        "host": "test.deeplink.com",
+        "port": -1,
+        "path": "/.*/.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mSourceFile": {
+              "path": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\navigation\\src\\main\\res\\navigation\\nav_graph.xml"
+            },
+            "mDescription": "nav_graph"
+          },
+          "mSourcePosition": {
+            "mStartLine": 42,
+            "mStartColumn": 8,
+            "mStartOffset": 1447,
+            "mEndLine": 42,
+            "mEndColumn": 65,
+            "mEndOffset": 1504
+          }
+        },
+        "isAutoVerify": false
+      }
+    ]
+  },
+  {
+    "name": "nav_graph_test",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

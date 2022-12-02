@@ -1,0 +1,25 @@
+com/jinxin/navigation/MainFragment.java
+ com.jinxin.navigation.MainFragment
+ com.jinxin.navigation.MainFragment$1
+ com.jinxin.navigation.MainFragment$2
+com/jinxin/navigation/test/OneTestFragment.java
+ com.jinxin.navigation.test.OneTestFragment
+com/jinxin/navigation/test/TwoTestFragment.java
+ com.jinxin.navigation.test.TwoTestFragment
+com/jinxin/navigation/BuildConfig.java
+ com.jinxin.navigation.BuildConfig
+com/jinxin/navigation/test/TestActivity.java
+ com.jinxin.navigation.test.TestActivity
+ com.jinxin.navigation.test.TestActivity$1
+com/jinxin/navigation/NavigationActivity.java
+ com.jinxin.navigation.NavigationActivity
+com/jinxin/navigation/MainFragmentDirections.java
+ com.jinxin.navigation.MainFragmentDirections
+ com.jinxin.navigation.MainFragmentDirections$1
+ com.jinxin.navigation.MainFragmentDirections$ActionMainFragmentToSecondFragment
+com/jinxin/navigation/SecondFragmentArgs.java
+ com.jinxin.navigation.SecondFragmentArgs
+ com.jinxin.navigation.SecondFragmentArgs$1
+ com.jinxin.navigation.SecondFragmentArgs$Builder
+com/jinxin/navigation/SecondFragment.java
+ com.jinxin.navigation.SecondFragment

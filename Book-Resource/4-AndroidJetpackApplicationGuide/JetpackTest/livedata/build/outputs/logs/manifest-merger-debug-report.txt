@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:1-10:12
+	package
+		ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+		ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:1-10:12
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+		ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:1-10:12
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:5:5-8:19
+activity#com.jinxin.livedata.fragment.FragmentActivity
+ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:6:9-72
+	android:name
+		ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:6:19-60
+activity#com.jinxin.livedata.TimerLiveDataActivity
+ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:7:9-59
+	android:name
+		ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml:7:19-56
+uses-sdk
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+		ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+		ADDED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml
+		INJECTED from D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\livedata\src\main\AndroidManifest.xml

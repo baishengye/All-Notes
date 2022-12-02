@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+id btn_reset_time
+id fragment_one
+id fragment_two
+id seek_bar
+id tv_timer
+layout activity_fragment
+layout activity_timer_live_data
+layout fragment_one
+layout fragment_two
+string hello_blank_fragment

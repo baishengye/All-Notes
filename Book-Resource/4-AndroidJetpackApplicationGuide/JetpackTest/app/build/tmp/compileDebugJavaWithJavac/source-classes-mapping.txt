@@ -1,0 +1,99 @@
+com/jinxin/jetpacktest/BuildConfig.java
+ com.jinxin.jetpacktest.BuildConfig
+com/jinxin/jetpacktest/room/StudentAdapter.java
+ com.jinxin.jetpacktest.room.StudentAdapter
+ com.jinxin.jetpacktest.room.StudentAdapter$ViewHolder
+com/jinxin/jetpacktest/room/dao/StudentDao.java
+ com.jinxin.jetpacktest.room.dao.StudentDao
+com/jinxin/jetpacktest/databinding/ItemRecyclerViewBindingBinding.java
+ com.jinxin.jetpacktest.databinding.ItemRecyclerViewBindingBinding
+com/jinxin/jetpacktest/databinding/EventHandleListener.java
+ com.jinxin.jetpacktest.databinding.EventHandleListener
+com/jinxin/jetpacktest/workmanager/WorkManagerTestActivity.java
+ com.jinxin.jetpacktest.workmanager.WorkManagerTestActivity
+ com.jinxin.jetpacktest.workmanager.WorkManagerTestActivity$1
+ com.jinxin.jetpacktest.workmanager.WorkManagerTestActivity$2
+ com.jinxin.jetpacktest.workmanager.WorkManagerTestActivity$3
+com/jinxin/jetpacktest/DataBindingTriggerClass.java
+ com.jinxin.jetpacktest.DataBindingTriggerClass
+com/jinxin/jetpacktest/databinding/TowWaySimpleBindingViewModel.java
+ com.jinxin.jetpacktest.databinding.TowWaySimpleBindingViewModel
+com/jinxin/jetpacktest/databinding/Book.java
+ com.jinxin.jetpacktest.databinding.Book
+com/jinxin/jetpacktest/databinding/LoginModel.java
+ com.jinxin.jetpacktest.databinding.LoginModel
+com/jinxin/jetpacktest/room/asynctask/InsertStudentTask.java
+ com.jinxin.jetpacktest.room.asynctask.InsertStudentTask
+ com.jinxin.jetpacktest.room.asynctask.InsertStudentTask$OnTaskListener
+com/jinxin/jetpacktest/room/livedata/StudentViewModel.java
+ com.jinxin.jetpacktest.room.livedata.StudentViewModel
+com/jinxin/jetpacktest/databinding/LayoutContentBinding.java
+ com.jinxin.jetpacktest.databinding.LayoutContentBinding
+com/jinxin/jetpacktest/room/livedata/LiveDataRoomTestActivity.java
+ com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity
+ com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity$1
+ com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity$2
+ com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity$3
+ com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity$4
+ com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity$5
+ com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity$6
+ com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity$7
+ com.jinxin.jetpacktest.room.livedata.LiveDataRoomTestActivity$8
+com/jinxin/jetpacktest/room/MyDatabase.java
+ com.jinxin.jetpacktest.room.MyDatabase
+ com.jinxin.jetpacktest.room.MyDatabase$1
+ com.jinxin.jetpacktest.room.MyDatabase$2
+com/jinxin/jetpacktest/databinding/ActivityRecyclerViewBindingBinding.java
+ com.jinxin.jetpacktest.databinding.ActivityRecyclerViewBindingBinding
+com/jinxin/jetpacktest/databinding/BookRatingUtil.java
+ com.jinxin.jetpacktest.databinding.BookRatingUtil
+com/jinxin/jetpacktest/databinding/RecyclerViewBindingAdapter.java
+ com.jinxin.jetpacktest.databinding.RecyclerViewBindingAdapter
+com/jinxin/jetpacktest/room/entity/Student.java
+ com.jinxin.jetpacktest.room.entity.Student
+com/jinxin/jetpacktest/room/asynctask/UpdateStudentTask.java
+ com.jinxin.jetpacktest.room.asynctask.UpdateStudentTask
+ com.jinxin.jetpacktest.room.asynctask.UpdateStudentTask$OnTaskListener
+com/jinxin/jetpacktest/databinding/RecyclerViewBindingActivity.java
+ com.jinxin.jetpacktest.databinding.RecyclerViewBindingActivity
+com/jinxin/jetpacktest/MainActivity.java
+ com.jinxin.jetpacktest.MainActivity
+com/jinxin/jetpacktest/databinding/RecyclerViewViewModel.java
+ com.jinxin.jetpacktest.databinding.RecyclerViewViewModel
+com/jinxin/jetpacktest/room/asynctask/QueryStudentTask.java
+ com.jinxin.jetpacktest.room.asynctask.QueryStudentTask
+ com.jinxin.jetpacktest.room.asynctask.QueryStudentTask$OnTaskListener
+com/jinxin/jetpacktest/workmanager/UpLoadLogWorker.java
+ com.jinxin.jetpacktest.workmanager.UpLoadLogWorker
+com/jinxin/jetpacktest/databinding/ActivityTowWayBindingBinding.java
+ com.jinxin.jetpacktest.databinding.ActivityTowWayBindingBinding
+com/jinxin/jetpacktest/room/RoomTestActivity.java
+ com.jinxin.jetpacktest.room.RoomTestActivity
+ com.jinxin.jetpacktest.room.RoomTestActivity$1
+ com.jinxin.jetpacktest.room.RoomTestActivity$2
+ com.jinxin.jetpacktest.room.RoomTestActivity$3
+ com.jinxin.jetpacktest.room.RoomTestActivity$4
+ com.jinxin.jetpacktest.room.RoomTestActivity$4$1
+ com.jinxin.jetpacktest.room.RoomTestActivity$5
+ com.jinxin.jetpacktest.room.RoomTestActivity$6
+ com.jinxin.jetpacktest.room.RoomTestActivity$6$1
+ com.jinxin.jetpacktest.room.RoomTestActivity$7
+ com.jinxin.jetpacktest.room.RoomTestActivity$7$1
+ com.jinxin.jetpacktest.room.RoomTestActivity$8
+com/jinxin/jetpacktest/databinding/TowWayBindingActivity.java
+ com.jinxin.jetpacktest.databinding.TowWayBindingActivity
+com/jinxin/jetpacktest/databinding/TowWayBindingViewModel.java
+ com.jinxin.jetpacktest.databinding.TowWayBindingViewModel
+com/jinxin/jetpacktest/room/asynctask/DeleteStudentTask.java
+ com.jinxin.jetpacktest.room.asynctask.DeleteStudentTask
+ com.jinxin.jetpacktest.room.asynctask.DeleteStudentTask$OnTaskListener
+com/jinxin/jetpacktest/databinding/ActivityDataBindingTestBinding.java
+ com.jinxin.jetpacktest.databinding.ActivityDataBindingTestBinding
+com/jinxin/jetpacktest/databinding/RecyclerViewAdapter.java
+ com.jinxin.jetpacktest.databinding.RecyclerViewAdapter
+ com.jinxin.jetpacktest.databinding.RecyclerViewAdapter$MyViewHolder
+com/jinxin/jetpacktest/databinding/ImageViewBindingAdapter.java
+ com.jinxin.jetpacktest.databinding.ImageViewBindingAdapter
+com/jinxin/jetpacktest/databinding/DataBindingTestActivity.java
+ com.jinxin.jetpacktest.databinding.DataBindingTestActivity
+ com.jinxin.jetpacktest.databinding.DataBindingTestActivity$ClickHandle

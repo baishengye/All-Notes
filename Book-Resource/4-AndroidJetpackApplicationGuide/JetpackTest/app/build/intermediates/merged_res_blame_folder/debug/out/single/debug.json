@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_data_binding_test.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\activity_data_binding_test.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_room_test.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\activity_room_test.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_right.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_right.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_student.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\list_item_student.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guidao.jpg.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\drawable\\guidao.jpg"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_layout_student.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\dialog_layout_student.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_manager_test.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\activity_work_manager_test.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_live_data_room_test.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\activity_live_data_room_test.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_in_left.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_out_left.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_recycler_view_binding.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\item_recycler_view_binding.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tow_way_binding.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\activity_tow_way_binding.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_content.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\layout_content.xml"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recycler_view_binding.xml.flat",
+        "source": "D:\\Code\\AndroidStudioProjects\\Book-Resource\\4-AndroidJetpackApplicationGuide\\JetpackTest\\app\\src\\main\\res\\layout\\activity_recycler_view_binding.xml"
+    }
+]

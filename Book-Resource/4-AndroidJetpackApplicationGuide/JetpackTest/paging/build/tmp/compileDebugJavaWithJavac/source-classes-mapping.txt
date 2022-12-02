@@ -1,0 +1,98 @@
+com/jinxin/paging/boundarycallback/BoundaryActivity.java
+ com.jinxin.paging.boundarycallback.BoundaryActivity
+com/jinxin/paging/positionaldatasource/api/DouBanApi.java
+ com.jinxin.paging.positionaldatasource.api.DouBanApi
+com/jinxin/paging/pagekeyeddatasource/PageKeyedActivity.java
+ com.jinxin.paging.pagekeyeddatasource.PageKeyedActivity
+com/jinxin/paging/boundarycallback/paging/UserViewModel.java
+ com.jinxin.paging.boundarycallback.paging.UserViewModel
+com/jinxin/paging/itemkeyeddatasrource/api/RetrofitClient.java
+ com.jinxin.paging.itemkeyeddatasrource.api.RetrofitClient
+com/jinxin/paging/pagekeyeddatasource/paging/UserViewModel.java
+ com.jinxin.paging.pagekeyeddatasource.paging.UserViewModel
+com/jinxin/paging/itemkeyeddatasrource/paging/UserAdapter.java
+ com.jinxin.paging.itemkeyeddatasrource.paging.UserAdapter
+ com.jinxin.paging.itemkeyeddatasrource.paging.UserAdapter$1
+ com.jinxin.paging.itemkeyeddatasrource.paging.UserAdapter$UserViewHolder
+com/jinxin/paging/pagekeyeddatasource/api/ApiInterceptor.java
+ com.jinxin.paging.pagekeyeddatasource.api.ApiInterceptor
+com/jinxin/paging/positionaldatasource/api/RetrofitClient.java
+ com.jinxin.paging.positionaldatasource.api.RetrofitClient
+com/jinxin/paging/boundarycallback/api/RetrofitClient.java
+ com.jinxin.paging.boundarycallback.api.RetrofitClient
+com/jinxin/paging/boundarycallback/db/UserDao.java
+ com.jinxin.paging.boundarycallback.db.UserDao
+com/jinxin/paging/itemkeyeddatasrource/paging/UserDataSource.java
+ com.jinxin.paging.itemkeyeddatasrource.paging.UserDataSource
+ com.jinxin.paging.itemkeyeddatasrource.paging.UserDataSource$1
+ com.jinxin.paging.itemkeyeddatasrource.paging.UserDataSource$2
+com/jinxin/paging/boundarycallback/paging/UserAdapter.java
+ com.jinxin.paging.boundarycallback.paging.UserAdapter
+ com.jinxin.paging.boundarycallback.paging.UserAdapter$1
+ com.jinxin.paging.boundarycallback.paging.UserAdapter$UserViewHolder
+com/jinxin/paging/boundarycallback/paging/UserBoundaryCallback.java
+ com.jinxin.paging.boundarycallback.paging.UserBoundaryCallback
+ com.jinxin.paging.boundarycallback.paging.UserBoundaryCallback$1
+ com.jinxin.paging.boundarycallback.paging.UserBoundaryCallback$2
+com/jinxin/paging/positionaldatasource/paging/MovieDataSourceFactory.java
+ com.jinxin.paging.positionaldatasource.paging.MovieDataSourceFactory
+com/jinxin/paging/pagekeyeddatasource/paging/UserAdapter.java
+ com.jinxin.paging.pagekeyeddatasource.paging.UserAdapter
+ com.jinxin.paging.pagekeyeddatasource.paging.UserAdapter$1
+ com.jinxin.paging.pagekeyeddatasource.paging.UserAdapter$UserViewHolder
+com/jinxin/paging/itemkeyeddatasrource/api/GithubApi.java
+ com.jinxin.paging.itemkeyeddatasrource.api.GithubApi
+com/jinxin/paging/boundarycallback/db/UserDatabase.java
+ com.jinxin.paging.boundarycallback.db.UserDatabase
+com/jinxin/paging/itemkeyeddatasrource/paging/UserViewModel.java
+ com.jinxin.paging.itemkeyeddatasrource.paging.UserViewModel
+com/jinxin/paging/positionaldatasource/PagingMainActivity.java
+ com.jinxin.paging.positionaldatasource.PagingMainActivity
+ com.jinxin.paging.positionaldatasource.PagingMainActivity$1
+com/jinxin/paging/itemkeyeddatasrource/paging/UserDataSourceFactory.java
+ com.jinxin.paging.itemkeyeddatasrource.paging.UserDataSourceFactory
+com/jinxin/paging/itemkeyeddatasrource/ItemKeyedMainActivity.java
+ com.jinxin.paging.itemkeyeddatasrource.ItemKeyedMainActivity
+com/jinxin/paging/boundarycallback/api/GithubApi.java
+ com.jinxin.paging.boundarycallback.api.GithubApi
+com/jinxin/paging/positionaldatasource/paging/MovieAdapter.java
+ com.jinxin.paging.positionaldatasource.paging.MovieAdapter
+ com.jinxin.paging.positionaldatasource.paging.MovieAdapter$1
+ com.jinxin.paging.positionaldatasource.paging.MovieAdapter$MovieViewHolder
+com/jinxin/paging/itemkeyeddatasrource/model/User.java
+ com.jinxin.paging.itemkeyeddatasrource.model.User
+com/jinxin/paging/pagekeyeddatasource/api/StackOverflowApi.java
+ com.jinxin.paging.pagekeyeddatasource.api.StackOverflowApi
+com/jinxin/paging/positionaldatasource/model/Movies.java
+ com.jinxin.paging.positionaldatasource.model.Movies
+com/jinxin/paging/boundarycallback/api/ApiInterceptor.java
+ com.jinxin.paging.boundarycallback.api.ApiInterceptor
+com/jinxin/paging/boundarycallback/model/User.java
+ com.jinxin.paging.boundarycallback.model.User
+com/jinxin/paging/positionaldatasource/model/Movie.java
+ com.jinxin.paging.positionaldatasource.model.Movie
+ com.jinxin.paging.positionaldatasource.model.Movie$Image
+com/jinxin/paging/pagekeyeddatasource/model/UserResponse.java
+ com.jinxin.paging.pagekeyeddatasource.model.UserResponse
+com/jinxin/paging/pagekeyeddatasource/paging/UserDataSource.java
+ com.jinxin.paging.pagekeyeddatasource.paging.UserDataSource
+ com.jinxin.paging.pagekeyeddatasource.paging.UserDataSource$1
+ com.jinxin.paging.pagekeyeddatasource.paging.UserDataSource$2
+com/jinxin/paging/positionaldatasource/paging/MovieDataSource.java
+ com.jinxin.paging.positionaldatasource.paging.MovieDataSource
+ com.jinxin.paging.positionaldatasource.paging.MovieDataSource$1
+ com.jinxin.paging.positionaldatasource.paging.MovieDataSource$2
+com/jinxin/paging/positionaldatasource/paging/MovieViewModel.java
+ com.jinxin.paging.positionaldatasource.paging.MovieViewModel
+com/jinxin/paging/BuildConfig.java
+ com.jinxin.paging.BuildConfig
+com/jinxin/paging/pagekeyeddatasource/model/User.java
+ com.jinxin.paging.pagekeyeddatasource.model.User
+com/jinxin/paging/itemkeyeddatasrource/api/ApiInterceptor.java
+ com.jinxin.paging.itemkeyeddatasrource.api.ApiInterceptor
+com/jinxin/paging/positionaldatasource/api/ApiInterceptor.java
+ com.jinxin.paging.positionaldatasource.api.ApiInterceptor
+com/jinxin/paging/pagekeyeddatasource/api/RetrofitClient.java
+ com.jinxin.paging.pagekeyeddatasource.api.RetrofitClient
+com/jinxin/paging/pagekeyeddatasource/paging/UserDataSourceFactory.java
+ com.jinxin.paging.pagekeyeddatasource.paging.UserDataSourceFactory

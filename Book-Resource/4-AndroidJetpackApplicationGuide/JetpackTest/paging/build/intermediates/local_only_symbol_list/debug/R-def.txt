@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+drawable invitation_8k
+drawable treasure_8k
+id iv_avatar
+id iv_movie
+id recycle_movie
+id recycle_user
+id swipeRefresh
+id tv_name
+id tv_title
+id tv_year
+layout activity_boundary
+layout activity_item_keyed_main
+layout activity_page_keyed
+layout activity_paging_main
+layout item_movie
+layout item_user

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JetpackTest.iml" filepath="$PROJECT_DIR$/.idea/JetpackTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JetpackTest.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JetpackTest.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lifecycle/JetpackTest.lifecycle.iml" filepath="$PROJECT_DIR$/.idea/modules/lifecycle/JetpackTest.lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/livedata/JetpackTest.livedata.iml" filepath="$PROJECT_DIR$/.idea/modules/livedata/JetpackTest.livedata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm/JetpackTest.mvvm.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm/JetpackTest.mvvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/JetpackTest.navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/JetpackTest.navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paging/JetpackTest.paging.iml" filepath="$PROJECT_DIR$/.idea/modules/paging/JetpackTest.paging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewmodel/JetpackTest.viewmodel.iml" filepath="$PROJECT_DIR$/.idea/modules/viewmodel/JetpackTest.viewmodel.iml" />
+    </modules>
+  </component>
+</project>

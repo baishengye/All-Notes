@@ -1,0 +1,29 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jinxin.navigation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\navigation\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\navigation\src\main\AndroidManifest.xml
+10
+11    <application>
+11-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\navigation\src\main\AndroidManifest.xml:5:5-12:19
+12        <activity android:name="com.jinxin.navigation.test.TestActivity" />
+12-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\navigation\src\main\AndroidManifest.xml:6:9-55
+12-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\navigation\src\main\AndroidManifest.xml:6:19-52
+13        <activity android:name="com.jinxin.navigation.NavigationActivity" >
+13-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\navigation\src\main\AndroidManifest.xml:7:9-11:20
+13-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\navigation\src\main\AndroidManifest.xml:7:19-53
+14
+15            <!-- 为Activity 设置<nav-graph/>标签 -->
+16            <nav-graph android:value="@navigation/nav_graph" />
+16-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\navigation\src\main\AndroidManifest.xml:10:13-63
+16-->D:\Code\AndroidStudioProjects\Book-Resource\4-AndroidJetpackApplicationGuide\JetpackTest\navigation\src\main\AndroidManifest.xml:10:24-61
+17        </activity>
+18    </application>
+19
+20</manifest>
