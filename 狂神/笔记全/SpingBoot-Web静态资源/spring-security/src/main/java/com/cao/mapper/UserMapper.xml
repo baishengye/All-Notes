@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cao.mapper.UserMapper">
+    <!--填写映射-->
+
+    <select id="login" resultType="com.cao.pojo.User">
+        select *
+        from obe.tb_user
+        where ugh = #{ugh}
+          and upsw = #{password};
+    </select>
+
+    <select id="findUserByGh" resultType="com.cao.pojo.User">
+        select *
+        from obe.tb_user
+        where ugh = #{ugh}
+    </select>
+</mapper>

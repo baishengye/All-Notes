@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            position: relative;
+            left: 500px;
+            top: 170px;
+        }
+        
+        table {
+            width: 500px;
+            height: 249px;
+            text-align: center;
+        }
+        
+        td {
+            border: 1px solid skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="servletWork" method="get" name="name1">
+            <table cellspacing="0">
+                <tr>
+                    <td><label for="name">用户名</label></td>
+                    <td><input type="text" name="username" value="请输入用户名" maxlength="6"> </td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">密码</label></td>
+                    <td><input type="password" name="pwd" value=""> </td>
+                </tr>
+                <tr>
+                    <td><label for="email">邮箱</label></td>
+                    <td><input type="text" name="emain" value="请输入email" maxlength="6"> </td>
+                </tr>
+                <tr>
+                    <td><label for="sex">性别</label></td>
+                    <td>男<input type="radio" name="sex" value="男"> 女 <input type="radio" name="sex" value="女" checked="checked"> 人妖 <input type="radio" name="sex" value="人妖"></td>
+                </tr>
+                <tr>
+                    <td><label for="bir">生日</label></td>
+                    <td>
+                        <select>
+                    <option>--请选择年份--</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    </select>
+                        <select>
+                        <option>--请选择月份--</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                        <select>
+                        <option>--请选择日--</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="ma">验证码</label></td>
+                    <td><input type="text" name="ma" value="请输入验证码"></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2"><input type="submit" value="提交"></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+</html>

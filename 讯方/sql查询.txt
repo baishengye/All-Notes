@@ -1,0 +1,43 @@
+#添加
+insert into t_emp(name, salary, deptid) values ("小黑",3000,3);
+#删除
+delete from t_emp where id = 10;
+#修改
+update t_emp set salary = 5000 where id = 9;
+
+#1.找出薪水最高和最低的员工信息
+select * from t_emp
+join (select max(salary) maxsalary from t_emp) maxs
+on t_emp.salary = maxs.maxsalary;
+
+select t_emp.id,t_emp.name,t_emp.salary,t_emp.deptid ,maxs.maxsalary
+from t_emp,(select max(salary) maxsalary from t_emp) maxs
+where t_emp.salary = maxs.maxsalary;
+
+#1.2找出员工信息及其部门信息
+select t_emp.id empid ,t_emp.name empname,t_emp.salary,t_dept.deptname
+from t_emp
+join t_dept
+on t_emp.deptid = t_dept.id;
+
+#2.找出所有部门的平均薪水
+select avg(t_emp.salary),t_dept.deptname
+from t_emp
+join t_dept
+on t_emp.deptid = t_dept.id
+group by t_dept.deptname;
+
+#3.找出平均薪水高于7500的部门
+select avg(t_emp.salary),t_dept.deptname
+from t_emp
+join t_dept
+on t_emp.deptid = t_dept.id
+group by t_dept.deptname
+having avg(t_emp.salary)>6000;
+
+#4.找出各部门薪水高于本部门平均薪水的员工信息
+select t_emp.id,t_emp.name,t_emp.salary,t_emp.deptid
+from t_emp
+join (select avg(t_emp.salary) avgsalary,deptid from t_emp group by t_emp.deptid) avgs
+on t_emp.deptid = avgs.deptid
+where t_emp.salary > avgsalary;
